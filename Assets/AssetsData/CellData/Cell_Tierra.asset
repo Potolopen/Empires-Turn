@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d9744a5e36774a4295a7a75b8dce4eb, type: 3}
+  m_Name: Cell_Tierra
+  m_EditorClassIdentifier: 
+  tiles:
+  - {fileID: 11400000, guid: b2ce6e83400ebb842b1d2f840c812154, type: 2}
+  - {fileID: 11400000, guid: 0ecfdbf5920e7684ca275516bc2dcfd0, type: 2}
+  - {fileID: 11400000, guid: a206681c2f034af4cac1128c6f0a1de5, type: 2}
+  - {fileID: 11400000, guid: 37418db783b2d3c41ac564f7c8aaeb72, type: 2}
+  - {fileID: 11400000, guid: 92399148596f32c4da514169162a447f, type: 2}
+  - {fileID: 11400000, guid: f6edb707694ade04191682bfde8d4bc8, type: 2}
+  - {fileID: 11400000, guid: f966e63f7df359e48a76eed70224cbd8, type: 2}
+  - {fileID: 11400000, guid: ed86423bf43ff2e48a036fc1fee9785d, type: 2}
+  - {fileID: 11400000, guid: afd734fb52b423e428557f20807aa7f8, type: 2}
+  - {fileID: 11400000, guid: 611d194e8d2fcb144921eccf38e489bb, type: 2}
+  - {fileID: 11400000, guid: 035155ff5ee2cc44cbb653a495f26eee, type: 2}
+  - {fileID: 11400000, guid: 6b8842c4fbf61ed4dbcb5d66306655ff, type: 2}
+  - {fileID: 11400000, guid: 523c475cd427de447afb41a1e20d90de, type: 2}
+  - {fileID: 11400000, guid: 1ebcba01460a3004b850d88c9418665f, type: 2}
+  - {fileID: 11400000, guid: 044cfa68e5d3f4d45ab9eea101587627, type: 2}
+  - {fileID: 11400000, guid: cf65035ba37a72e44a7e3371e9dadd26, type: 2}
+  - {fileID: 11400000, guid: 8f9d1b8d37f2afc44be41e50ce51ec5b, type: 2}
+  - {fileID: 11400000, guid: 2e97802f5f7a54846b7c973dfaee2e7d, type: 2}
+  - {fileID: 11400000, guid: cf6a8eef656272242ad88049ac7302a5, type: 2}
+  - {fileID: 11400000, guid: 289fc9c929d1da74394350b399006ab3, type: 2}
+  - {fileID: 11400000, guid: 9b0f199ec174dd6469ed2623ac100a52, type: 2}
+  - {fileID: 11400000, guid: 30a2baeeb18f079488f921b6ef390c46, type: 2}
+  - {fileID: 11400000, guid: 8efb5b04248a4734694fc9486c6f3cee, type: 2}
+  - {fileID: 11400000, guid: ed991d783f0fa5f42a8a969d20950efd, type: 2}
+  - {fileID: 11400000, guid: 5289b716bd0010b45a1e766f5ae52b65, type: 2}
+  tipoTerreno: 1
+  costeMovimiento: 10

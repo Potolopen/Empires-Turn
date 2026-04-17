@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d9744a5e36774a4295a7a75b8dce4eb, type: 3}
+  m_Name: Cell_Rocoso
+  m_EditorClassIdentifier: 
+  tiles:
+  - {fileID: 11400000, guid: cad02f7c693a76d469d019b68ae02a9a, type: 2}
+  - {fileID: 11400000, guid: fcc151349c7a934478d1069330976b59, type: 2}
+  - {fileID: 11400000, guid: 873393de5c8605947ab04ccc5b858d5f, type: 2}
+  - {fileID: 11400000, guid: 52eccd4b2094e3749bc759dacabef434, type: 2}
+  - {fileID: 11400000, guid: 7e6aaa3b2b1fc044ca7e1d3d71de4daa, type: 2}
+  tipoTerreno: 2
+  costeMovimiento: 10

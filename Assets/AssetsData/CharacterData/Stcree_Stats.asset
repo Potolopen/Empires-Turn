@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e4f969954ee11e40b981c9fc8eb747e, type: 3}
+  m_Name: Stcree_Stats
+  m_EditorClassIdentifier: 
+  nombre: Stcree
+  stats:
+    vidaMaxima: 165
+    vidaActual: 165
+    staminaMaxima: 95
+    staminaActual: 95
+    ataqueFisico: 85
+    defensaFisica: 115
+    ataqueEspecial: 78
+    defensaEspecial: 70
+    velocidad: 50
+  ability:
+    nombre: 
+  attacks:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  tipoMovilidad: 0
+  elementalType: 2
+  classType: 1
+  iconoTipo: {fileID: 21300000, guid: d84eb3df733b78a4eb5027e7a627b602, type: 3}
+  iconoClase: {fileID: 21300000, guid: f300c707b74ceb9489e3c6050a3f26a8, type: 3}
+  iconoMovilidad: {fileID: 21300000, guid: 2ed93ddc95ec0a9419b39b8d40fa58d4, type: 3}
+  characterFace: {fileID: 21300000, guid: 2cd5b5801e7dd35439fc7c7a10379002, type: 3}

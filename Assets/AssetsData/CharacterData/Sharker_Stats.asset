@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e4f969954ee11e40b981c9fc8eb747e, type: 3}
+  m_Name: Sharker_Stats
+  m_EditorClassIdentifier: 
+  nombre: Sharker
+  stats:
+    vidaMaxima: 120
+    vidaActual: 120
+    staminaMaxima: 85
+    staminaActual: 85
+    ataqueFisico: 110
+    defensaFisica: 85
+    ataqueEspecial: 65
+    defensaEspecial: 70
+    velocidad: 75
+  ability:
+    nombre: 
+  attacks:
+  - {fileID: 11400000, guid: 98009d86087a4fe498720981524814f7, type: 2}
+  - {fileID: 11400000, guid: f388d3d75026a7f4c844386c707daf62, type: 2}
+  - {fileID: 11400000, guid: 94b00d7551afba3479a66e84c4da8304, type: 2}
+  tipoMovilidad: 1
+  elementalType: 0
+  classType: 0
+  iconoTipo: {fileID: 21300000, guid: 4c0275923b1404a47a42b8a1ec33021b, type: 3}
+  iconoClase: {fileID: 21300000, guid: 7f2e36dbbc8baea438871cd5e353a36d, type: 3}
+  iconoMovilidad: {fileID: 21300000, guid: caccd8301695e254fb29d39566fbad9c, type: 3}
+  characterFace: {fileID: 21300000, guid: 0b1f1bc306767914e94ec64cae1e083e, type: 3}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76a0d655c364e7f4ca1986671cbe91e5, type: 3}
+  m_Name: Attack2_Pedrada
+  m_EditorClassIdentifier: 
+  nombre: Pedrada
+  rango: 4
+  accuracy: 90
+  objective: 0
+  criticRate: 25
+  costeStamina: 15
+  elementalType: 3
+  categoria: 1
+  efectos:
+  - {fileID: 11400000, guid: 52786e237308a17458936560ce8d16db, type: 2}
+  descripcion: Lanza una piedra con gran fuerza al enemigo.
+  vfxPrefab: {fileID: 7023271655514513397, guid: af871f04b0439ae4b93c1f35399c1d17, type: 3}
+  duracionAnimacion: 0.5
+  tiempoParaAplicarDano: 0.5

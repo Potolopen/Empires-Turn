@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 163f7195a483d754f81e21be06218897
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6681036748235651529
+    second: PRAS- Sticky Web_0
+  - first:
+      213: 2447450925278643387
+    second: PRAS- Sticky Web_1
+  - first:
+      213: -5061312904411738501
+    second: PRAS- Sticky Web_2
+  - first:
+      213: -2243042937143897715
+    second: PRAS- Sticky Web_3
+  - first:
+      213: -5066164213407582165
+    second: PRAS- Sticky Web_4
+  - first:
+      213: 934539392759198555
+    second: PRAS- Sticky Web_5
+  - first:
+      213: -4680814375569055520
+    second: PRAS- Sticky Web_6
+  - first:
+      213: -1052962547573196780
+    second: PRAS- Sticky Web_7
+  - first:
+      213: 5569409538764866475
+    second: PRAS- Sticky Web_8
+  - first:
+      213: 6294217252018702669
+    second: PRAS- Sticky Web_9
+  - first:
+      213: 2562477889316836543
+    second: PRAS- Sticky Web_10
+  - first:
+      213: -2780393604311519707
+    second: PRAS- Sticky Web_11
+  - first:
+      213: -5314165102009074121
+    second: PRAS- Sticky Web_12
+  - first:
+      213: 2518217851540940045
+    second: PRAS- Sticky Web_13
+  - first:
+      213: -1409324188521358636
+    second: PRAS- Sticky Web_14
+  - first:
+      213: 1401026459051369366
+    second: PRAS- Sticky Web_15
+  - first:
+      213: 6079138658452355566
+    second: PRAS- Sticky Web_16
+  - first:
+      213: 8416489237405426589
+    second: PRAS- Sticky Web_17
+  - first:
+      213: -2342074934525565424
+    second: PRAS- Sticky Web_18
+  - first:
+      213: -1562281223476703442
+    second: PRAS- Sticky Web_19
+  - first:
+      213: 5994480800352991551
+    second: PRAS- Sticky Web_20
+  - first:
+      213: -4481367922827259172
+    second: PRAS- Sticky Web_21
+  - first:
+      213: -8414980282433676757
+    second: PRAS- Sticky Web_22
+  - first:
+      213: 687111077945589102
+    second: PRAS- Sticky Web_23
+  - first:
+      213: -3418958259133521994
+    second: PRAS- Sticky Web_24
+  - first:
+      213: -8923827450394032269
+    second: PRAS- Sticky Web_25
+  - first:
+      213: 2575279397485225240
+    second: PRAS- Sticky Web_26
+  - first:
+      213: -975279188425932154
+    second: PRAS- Sticky Web_27
+  - first:
+      213: -5127620547173913653
+    second: PRAS- Sticky Web_28
+  - first:
+      213: -9153600317296388662
+    second: PRAS- Sticky Web_29
+  - first:
+      213: 1496988683160118386
+    second: PRAS- Sticky Web_30
+  - first:
+      213: 2903566812141364103
+    second: PRAS- Sticky Web_31
+  - first:
+      213: 5929243450037754337
+    second: PRAS- Sticky Web_32
+  - first:
+      213: 2914422290717440464
+    second: PRAS- Sticky Web_33
+  - first:
+      213: 3809015300188637679
+    second: PRAS- Sticky Web_34
+  - first:
+      213: 6524156154740589705
+    second: PRAS- Sticky Web_35
+  - first:
+      213: 5456980186815110916
+    second: PRAS- Sticky Web_36
+  - first:
+      213: 6145696700074327425
+    second: PRAS- Sticky Web_37
+  - first:
+      213: -6832570780651309354
+    second: PRAS- Sticky Web_38
+  - first:
+      213: -4865258637387378646
+    second: PRAS- Sticky Web_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PRAS- Sticky Web_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7364512a9703843a0800000000000000
+      internalID: -6681036748235651529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Sticky Web_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb44f6e36a717f120800000000000000
+      internalID: 2447450925278643387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Sticky Web_2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e007bbaba92c9b0800000000000000
+      internalID: -5061312904411738501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Sticky Web_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 384
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81d693355c1fd0e0800000000000000
+      internalID: -2243042937143897715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Sticky Web_4
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b287b065d7e51b9b0800000000000000
+      internalID: -5066164213407582165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Sticky Web_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53750650a628fc00800000000000000
+      internalID: 934539392759198555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Sticky Web_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e02aac10286a0fb0800000000000000
+      internalID: -4680814375569055520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Sticky Web_7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 418fb1e44202361f0800000000000000
+      internalID: -1052962547573196780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Sticky Web_8
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba380cea7748a4d40800000000000000
+      internalID: 5569409538764866475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Sticky Web_9
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49c5b51e3d895750800000000000000
+      internalID: 6294217252018702669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Sticky Web_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb4d5815010cf8320800000000000000
+      internalID: 2562477889316836543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Sticky Web_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e6e3f7fbe0a69d0800000000000000
+      internalID: -2780393604311519707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Sticky Web_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73eb8f0defa4046b0800000000000000
+      internalID: -5314165102009074121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Sticky Web_13
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05252c3bc182f220800000000000000
+      internalID: 2518217851540940045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0762d70dab089d4418e3ffad7f8c2d2c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PRAS- Sticky Web_0: -6681036748235651529
+      PRAS- Sticky Web_1: 2447450925278643387
+      PRAS- Sticky Web_10: 2562477889316836543
+      PRAS- Sticky Web_11: -2780393604311519707
+      PRAS- Sticky Web_12: -5314165102009074121
+      PRAS- Sticky Web_13: 2518217851540940045
+      PRAS- Sticky Web_2: -5061312904411738501
+      PRAS- Sticky Web_3: -2243042937143897715
+      PRAS- Sticky Web_4: -5066164213407582165
+      PRAS- Sticky Web_5: 934539392759198555
+      PRAS- Sticky Web_6: -4680814375569055520
+      PRAS- Sticky Web_7: -1052962547573196780
+      PRAS- Sticky Web_8: 5569409538764866475
+      PRAS- Sticky Web_9: 6294217252018702669
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

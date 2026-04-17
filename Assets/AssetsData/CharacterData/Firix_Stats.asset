@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e4f969954ee11e40b981c9fc8eb747e, type: 3}
+  m_Name: Firix_Stats
+  m_EditorClassIdentifier: 
+  nombre: Firix
+  stats:
+    vidaMaxima: 95
+    vidaActual: 95
+    staminaMaxima: 105
+    staminaActual: 105
+    ataqueFisico: 68
+    defensaFisica: 56
+    ataqueEspecial: 125
+    defensaEspecial: 78
+    velocidad: 95
+  ability:
+    nombre: 
+  attacks:
+  - {fileID: 11400000, guid: 8d26f0ec652048847aacfdabcec7dd90, type: 2}
+  - {fileID: 11400000, guid: dfe6f5cb856781c48bc13f5465b6aef5, type: 2}
+  - {fileID: 11400000, guid: 263ee96a45183484c9015188fc7981d8, type: 2}
+  tipoMovilidad: 2
+  elementalType: 1
+  classType: 2
+  iconoTipo: {fileID: 21300000, guid: 004cc098aa7648740a2ad26bdaef4e88, type: 3}
+  iconoClase: {fileID: 21300000, guid: 15e944cc452e0e14da48970eac7e1839, type: 3}
+  iconoMovilidad: {fileID: 21300000, guid: 2ed93ddc95ec0a9419b39b8d40fa58d4, type: 3}
+  characterFace: {fileID: 21300000, guid: e0202afd87d576b41aa7e027e87541f5, type: 3}

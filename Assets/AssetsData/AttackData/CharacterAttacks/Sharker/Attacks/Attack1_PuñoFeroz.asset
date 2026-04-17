@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76a0d655c364e7f4ca1986671cbe91e5, type: 3}
+  m_Name: "Attack1_Pu\xF1oFeroz"
+  m_EditorClassIdentifier: 
+  nombre: "Pu\xF1o Feroz"
+  rango: 1
+  accuracy: 100
+  objective: 1
+  criticRate: 5
+  costeStamina: 10
+  elementalType: 0
+  categoria: 0
+  efectos:
+  - {fileID: 11400000, guid: b11ce35867e4a644ca8284c7bd8bcb63, type: 2}
+  descripcion: "Pega un pu\xF1etazo que hiere gravemente al enemigo."
+  vfxPrefab: {fileID: 7698432847660237601, guid: fafdf6273778a1745b181d795cd1f53a, type: 3}
+  duracionAnimacion: 0.5
+  tiempoParaAplicarDano: 0.3
