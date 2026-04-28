@@ -28,7 +28,7 @@ public class EstadisticasUIManager : MonoBehaviour
 
     [Header("Conexión API")]
     // Asegúrate de cambiar esto si tu URL es distinta
-    private string urlBase = "https://empiresturn.somee.com/api/Stats/Ver/";
+    private string urlBase = "http://empiresturn.somee.com/api/Stats/Ver/";
 
     [Header("UI Global (Resumen)")]
     public TMP_Text textoPartidas;

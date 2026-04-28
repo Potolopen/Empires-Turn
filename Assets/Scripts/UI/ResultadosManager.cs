@@ -26,7 +26,7 @@ public class FinPartidaDto
 // ==========================================
 public class ResultadosManager : MonoBehaviour
 {
-    private string urlServidor = "https://empiresturn.somee.com/api/Stats/GuardarPartida";
+    private string urlServidor = "http://empiresturn.somee.com/api/Stats/GuardarPartida";
 
     // El GameManager llamará a este método cuando acabe la partida
     public void EnviarEstadisticasAlServidor(FinPartidaDto datosPartida)

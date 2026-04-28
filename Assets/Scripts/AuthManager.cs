@@ -10,7 +10,7 @@ public class AuthManager : MonoBehaviour
     public static AuthManager instance;
 
     // Cambia el puerto 7008 por el puerto real que te aparece en la URL de tu Swagger
-    private string baseUrl = "https://empiresturn.somee.com/api/Auth";
+    private string baseUrl = "http://empiresturn.somee.com/api/Auth";
 
     [Header("Referencias UI")]
     public TMP_InputField inputUsuario;
