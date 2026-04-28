@@ -3,11 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\character\\charactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\ui\\resultadosmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\resultadosmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\ui\\estadisticasuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\estadisticasuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|c:\\users\\erica\\unity\\proyectovideojuego\\assets\\scripts\\character\\charactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\charactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|c:\\users\\erica\\unity\\proyectovideojuego\\assets\\scripts\\ui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\ui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -17,14 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\ui\\resultadosmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\resultadosmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\character\\characterentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\ui\\menuuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\menuuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\ui\\estadisticasuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\estadisticasuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\attack\\combatvisualmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -158,7 +158,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 33,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -170,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "TransformEffect.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\Attack\\EffectAttacks\\TransformEffect.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Attack\\EffectAttacks\\TransformEffect.cs",
@@ -206,15 +206,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "EstadisticasUIManager.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\UI\\EstadisticasUIManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\EstadisticasUIManager.cs",
               "ToolTip": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\UI\\EstadisticasUIManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\EstadisticasUIManager.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwEMAAAAfAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAUwB4AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T16:09:04.91Z"
+              "WhenOpened": "2026-04-20T16:09:04.91Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -230,15 +231,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "ResultadosManager.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\UI\\ResultadosManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ResultadosManager.cs",
               "ToolTip": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\UI\\ResultadosManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\ResultadosManager.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAYwDIAAABVAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAIwBwAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T19:50:35.365Z"
+              "WhenOpened": "2026-04-18T19:50:35.365Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -302,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "MenuUIManager.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\UI\\MenuUIManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\MenuUIManager.cs",
@@ -314,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "UIManager.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\UI\\UIManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIManager.cs",
@@ -322,8 +324,7 @@
               "RelativeToolTip": "Assets\\Scripts\\UI\\UIManager.cs",
               "ViewState": "AQIAAAsCAAAAAAAAAAApwB8CAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T16:22:53.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-02T16:22:53.767Z"
             },
             {
               "$type": "Document",
@@ -339,15 +340,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "AuthManager.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\AuthManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AuthManager.cs",
               "ToolTip": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\AuthManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\AuthManager.cs",
-              "ViewState": "AQIAAG4AAAAAAAAAAAAswJMAAABAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T19:38:32.429Z"
+              "WhenOpened": "2026-03-22T19:38:32.429Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -495,7 +497,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
@@ -531,7 +533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CharacterEntity.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\Character\\CharacterEntity.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\CharacterEntity.cs",
@@ -543,7 +545,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "CharacterMovement.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\Character\\CharacterMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\CharacterMovement.cs",
@@ -568,7 +570,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "CombatManager.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\Attack\\CombatManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Attack\\CombatManager.cs",
