@@ -3,6 +3,9 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Characters/Character Data")]
 public class CharacterData : ScriptableObject
 {
+    [Header("Conexión Servidor")]
+    public int idDataBase; // id para la base de datos
+
     public string nombre;
     public Stats stats;
     public Ability ability;

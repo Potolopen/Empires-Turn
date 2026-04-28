@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76a0d655c364e7f4ca1986671cbe91e5, type: 3}
+  m_Name: Attack2_AbsorbeTornados
+  m_EditorClassIdentifier: 
+  nombre: Absorbe Tornados
+  rango: 5
+  accuracy: 85
+  objective: 0
+  criticRate: 0
+  costeStamina: 35
+  elementalType: 7
+  categoria: 2
+  efectos:
+  - {fileID: 11400000, guid: 6edb15008cafdae49a00f06590f10d7e, type: 2}
+  - {fileID: 11400000, guid: ab4298ece9470c7449b3d01649b55276, type: 2}
+  - {fileID: 11400000, guid: 4aac5e80bbfc2aa4cb6f34c39bef61bf, type: 2}
+  descripcion: "Inyecta su aguij\xF3n al enemigo baj\xE1ndole la Velocidad [3T],
+    Ataque Fisico [2T] y quit\xE1ndole 45 puntos de Estamina. A su vez el atacante
+    le aumentar\xE1 la Velocidad [3T], el Ataque Especial [2T] y recuperar\xE1 20
+    puntos de Estamina."
+  vfxPrefab: {fileID: 0}
+  duracionAnimacion: 1.5
+  tiempoParaAplicarDano: 0.5

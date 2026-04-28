@@ -15,7 +15,7 @@ public class BurnEffect : AttackEffect
         {
             objetivo.statusType = StatusType.Quemadura;
             objetivo.turnosEstadoRestantes = 3;
-            objetivo.stats.ataqueFisico = Mathf.CeilToInt(objetivo.stats.ataqueFisico * 0.5f);
+            objetivo.RecalcularEstadisticas();
 
             objetivo.vfxEstadoActual = this.vfxEffectPrefab;
 

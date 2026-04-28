@@ -53,8 +53,10 @@ public class SelectorManager : MonoBehaviour
 
                 Button btn = nuevoBoton.GetComponent<Button>();
 
+                TMP_Text txt = nuevoBoton.GetComponentInChildren<TMP_Text>();
+
                 // Actualizamos el Listener para pasar también la referencia de la cara.
-                btn.onClick.AddListener(() => Seleccionar(prefab, btn, faceImage));
+                btn.onClick.AddListener(() => Seleccionar(prefab, btn, txt, faceImage));
             }
             else
             {
@@ -65,17 +67,21 @@ public class SelectorManager : MonoBehaviour
     }
 
     // Actualizamos la función Seleccionar para que reciba la imagen de la cara
-    void Seleccionar(GameObject personaje, Button boton, Image faceImage)
+    void Seleccionar(GameObject personaje, Button boton, TMP_Text seleccion,Image faceImage)
     {
         if (turnoDeJugador == 1)
         {
             DatosCombate.equipoP1.Add(personaje);
             seleccionesP1++;
+            seleccion.text = seleccionesP1.ToString();
+            seleccion.color = Color.green;
         }
         else
         {
             DatosCombate.equipoP2.Add(personaje);
             seleccionesP2++;
+            seleccion.text = seleccionesP2.ToString();
+            seleccion.color = Color.red;
         }
 
         // Efecto visual de deshabilitado (baja opacidad si el "Disabled Color" del botón está configurado)
@@ -92,7 +98,7 @@ public class SelectorManager : MonoBehaviour
         }
         // ---------------------------------
 
-        if (seleccionesP1 >= 2 && seleccionesP2 >= 2)
+        if (seleccionesP1 >= 6 && seleccionesP2 >= 6)
         {
             SceneManager.LoadScene("SampleScene"); // ¡A combatir!
         }
@@ -103,5 +109,21 @@ public class SelectorManager : MonoBehaviour
         }
     }
 
-    void ActualizarTexto() => textoEstado.text = "Turno del Jugador " + turnoDeJugador;
+    void ActualizarTexto()
+    {
+        if(turnoDeJugador == 1) 
+        {
+            textoEstado.text = "Turno del Jugador " + AuthManager.instance.nombreUsuario;
+        }
+        else
+        {
+            textoEstado.text = "Turno del Jugador " + turnoDeJugador;
+        }
+    }
+
+    public void EliminarDatos()
+    {
+        DatosCombate.equipoP1.Clear();
+        DatosCombate.equipoP2.Clear();
+    }
 }

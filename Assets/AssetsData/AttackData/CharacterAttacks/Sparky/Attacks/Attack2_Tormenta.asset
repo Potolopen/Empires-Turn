@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76a0d655c364e7f4ca1986671cbe91e5, type: 3}
+  m_Name: Attack2_Tormenta
+  m_EditorClassIdentifier: 
+  nombre: Tormenta
+  rango: 10
+  accuracy: 75
+  objective: 0
+  criticRate: 0
+  costeStamina: 45
+  elementalType: 0
+  categoria: 2
+  efectos:
+  - {fileID: 11400000, guid: 5d34af0013f24824a8538273195eb8dc, type: 2}
+  - {fileID: 11400000, guid: 221687fe334662e4891a388886ee0a1f, type: 2}
+  descripcion: "Crea una lluvia que disminuye la Defensa Especial del enemigo [2T]
+    y la Velocidad [3T]. Adem\xE1s de tener un 50% de causar Frio."
+  vfxPrefab: {fileID: 0}
+  duracionAnimacion: 1.5
+  tiempoParaAplicarDano: 0.5

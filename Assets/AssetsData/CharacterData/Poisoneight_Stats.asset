@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e4f969954ee11e40b981c9fc8eb747e, type: 3}
+  m_Name: Poisoneight_Stats
+  m_EditorClassIdentifier: 
+  idDataBase: 11
+  nombre: Poisoneight
+  stats:
+    vidaMaxima: 185
+    vidaActual: 185
+    staminaMaxima: 80
+    staminaActual: 80
+    ataqueFisico: 95
+    defensaFisica: 45
+    ataqueEspecial: 65
+    defensaEspecial: 75
+    velocidad: 70
+  ability:
+    nombre: 
+  attacks:
+  - {fileID: 11400000, guid: f4a65051c1c99334cb135d26ac5ec834, type: 2}
+  - {fileID: 11400000, guid: af52b6e3a5d115e47b752afcb4bf18f9, type: 2}
+  - {fileID: 11400000, guid: 2dcdc5e9a4feba14e8cd6c6419af6753, type: 2}
+  tipoMovilidad: 1
+  elementalType: 10
+  classType: 0
+  iconoTipo: {fileID: 21300000, guid: 6b1f2b687f3a56c47ad5b789397196df, type: 3}
+  iconoClase: {fileID: 21300000, guid: 7f2e36dbbc8baea438871cd5e353a36d, type: 3}
+  iconoMovilidad: {fileID: 21300000, guid: caccd8301695e254fb29d39566fbad9c, type: 3}
+  characterFace: {fileID: 21300000, guid: db9b5a380b7850143a8ef6d66a9516f7, type: 3}

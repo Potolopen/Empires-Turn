@@ -12,27 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e4f969954ee11e40b981c9fc8eb747e, type: 3}
   m_Name: Mude_Stats
   m_EditorClassIdentifier: 
+  idDataBase: 4
   nombre: Mude
   stats:
-    vidaMaxima: 115
-    vidaActual: 115
+    vidaMaxima: 220
+    vidaActual: 220
     staminaMaxima: 78
     staminaActual: 78
-    ataqueFisico: 112
-    defensaFisica: 105
-    ataqueEspecial: 80
-    defensaEspecial: 68
+    ataqueFisico: 65
+    defensaFisica: 55
+    ataqueEspecial: 30
+    defensaEspecial: 25
     velocidad: 80
   ability:
     nombre: 
   attacks:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: c269bc002ea0ba84e8756b759ad3e14f, type: 2}
+  - {fileID: 11400000, guid: 5723cb4139894f745bf3d498ddb1810d, type: 2}
+  - {fileID: 11400000, guid: 9576ee921c2a379488ed7a88f3a1a888, type: 2}
   tipoMovilidad: 0
   elementalType: 3
   classType: 0
   iconoTipo: {fileID: 21300000, guid: 904dc9eac75778e41bd08298b0786ede, type: 3}
   iconoClase: {fileID: 21300000, guid: 7f2e36dbbc8baea438871cd5e353a36d, type: 3}
   iconoMovilidad: {fileID: 21300000, guid: 2ed93ddc95ec0a9419b39b8d40fa58d4, type: 3}
-  characterFace: {fileID: 21300000, guid: 2cd5b5801e7dd35439fc7c7a10379002, type: 3}
+  characterFace: {fileID: 21300000, guid: 23956ec3dcec17943bdf454f7c733bb1, type: 3}

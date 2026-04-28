@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e4f969954ee11e40b981c9fc8eb747e, type: 3}
+  m_Name: Rango_Stats
+  m_EditorClassIdentifier: 
+  idDataBase: 12
+  nombre: Rango
+  stats:
+    vidaMaxima: 200
+    vidaActual: 200
+    staminaMaxima: 110
+    staminaActual: 110
+    ataqueFisico: 50
+    defensaFisica: 50
+    ataqueEspecial: 50
+    defensaEspecial: 50
+    velocidad: 50
+  ability:
+    nombre: 
+  attacks:
+  - {fileID: 11400000, guid: 5b1b6d2171228f0498a7927d5d8f314c, type: 2}
+  - {fileID: 11400000, guid: 59692212fc4b34d4381a367341a7241b, type: 2}
+  - {fileID: 11400000, guid: 4500047bb50ebe0488deba5dda3df2cb, type: 2}
+  tipoMovilidad: 0
+  elementalType: 11
+  classType: 2
+  iconoTipo: {fileID: 21300000, guid: b6c64e6a4597aa0468398e581c067446, type: 3}
+  iconoClase: {fileID: 21300000, guid: 7f2e36dbbc8baea438871cd5e353a36d, type: 3}
+  iconoMovilidad: {fileID: 21300000, guid: 2ed93ddc95ec0a9419b39b8d40fa58d4, type: 3}
+  characterFace: {fileID: 21300000, guid: 18b9746983daa4348947ac8bd372805d, type: 3}

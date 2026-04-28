@@ -15,7 +15,9 @@ public class SlownessEffect : AttackEffect
         {
             objetivo.statusType = StatusType.Lentitud;
             objetivo.turnosEstadoRestantes = 3;
-            objetivo.stats.velocidad = Mathf.CeilToInt(objetivo.stats.velocidad * 0.5f);
+
+            // le decimos al personaje que actualice sus propios números.
+            objetivo.RecalcularEstadisticas();
 
             objetivo.vfxEstadoActual = this.vfxEffectPrefab;
 

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e4f969954ee11e40b981c9fc8eb747e, type: 3}
+  m_Name: Ssoke_Stats
+  m_EditorClassIdentifier: 
+  idDataBase: 9
+  nombre: Ssoke
+  stats:
+    vidaMaxima: 235
+    vidaActual: 235
+    staminaMaxima: 110
+    staminaActual: 110
+    ataqueFisico: 20
+    defensaFisica: 35
+    ataqueEspecial: 70
+    defensaEspecial: 75
+    velocidad: 85
+  ability:
+    nombre: 
+  attacks:
+  - {fileID: 11400000, guid: fb7385fcd61ab7e45afe0c598ec7a1c5, type: 2}
+  - {fileID: 11400000, guid: f2079726d0765634c938bd6b1019c596, type: 2}
+  - {fileID: 11400000, guid: d3dd2523e9ce43c4d8ce59c63ea5b76a, type: 2}
+  tipoMovilidad: 0
+  elementalType: 8
+  classType: 1
+  iconoTipo: {fileID: 21300000, guid: a58c48eb99a7983439f96ce462152609, type: 3}
+  iconoClase: {fileID: 21300000, guid: f300c707b74ceb9489e3c6050a3f26a8, type: 3}
+  iconoMovilidad: {fileID: 21300000, guid: caccd8301695e254fb29d39566fbad9c, type: 3}
+  characterFace: {fileID: 21300000, guid: b2898e1f970686347af08a1c13c6bcc3, type: 3}

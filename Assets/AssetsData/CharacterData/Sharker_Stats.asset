@@ -12,16 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e4f969954ee11e40b981c9fc8eb747e, type: 3}
   m_Name: Sharker_Stats
   m_EditorClassIdentifier: 
+  idDataBase: 1
   nombre: Sharker
   stats:
-    vidaMaxima: 120
-    vidaActual: 120
+    vidaMaxima: 205
+    vidaActual: 205
     staminaMaxima: 85
     staminaActual: 85
-    ataqueFisico: 110
-    defensaFisica: 85
-    ataqueEspecial: 65
-    defensaEspecial: 70
+    ataqueFisico: 80
+    defensaFisica: 55
+    ataqueEspecial: 50
+    defensaEspecial: 45
     velocidad: 75
   ability:
     nombre: 
@@ -35,4 +36,4 @@ MonoBehaviour:
   iconoTipo: {fileID: 21300000, guid: 4c0275923b1404a47a42b8a1ec33021b, type: 3}
   iconoClase: {fileID: 21300000, guid: 7f2e36dbbc8baea438871cd5e353a36d, type: 3}
   iconoMovilidad: {fileID: 21300000, guid: caccd8301695e254fb29d39566fbad9c, type: 3}
-  characterFace: {fileID: 21300000, guid: 0b1f1bc306767914e94ec64cae1e083e, type: 3}
+  characterFace: {fileID: 21300000, guid: 7d1fdd2b18eada24895afe03c3fc26bc, type: 3}

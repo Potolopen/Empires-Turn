@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7ea710f5cde29949a1c2964104696d5, type: 3}
   m_Name: Attack2_StaminaEffect
   m_EditorClassIdentifier: 
-  vfxPrefab: {fileID: 0}
-  duracionAnimacion: 1.5
-  stamina: 20
+  vfxEffectPrefab: {fileID: 0}
+  vfxEffectDuration: 1.5
+  stamina: 60
   recuperaStamina: 1
+  aElMismo: 0

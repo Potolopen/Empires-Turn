@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76a0d655c364e7f4ca1986671cbe91e5, type: 3}
+  m_Name: Attack3_Desprendimiento
+  m_EditorClassIdentifier: 
+  nombre: Desprendimiento
+  rango: 10
+  accuracy: 55
+  objective: 0
+  criticRate: 15
+  costeStamina: 50
+  elementalType: 3
+  categoria: 1
+  efectos:
+  - {fileID: 11400000, guid: 87360410ddd62e441af1e0497f3e072f, type: 2}
+  descripcion: "Crea un potente tornado el cual lanza diferentes objetos capaces
+    de da\xF1ar al enemigo."
+  vfxPrefab: {fileID: 0}
+  duracionAnimacion: 1.5
+  tiempoParaAplicarDano: 0.5

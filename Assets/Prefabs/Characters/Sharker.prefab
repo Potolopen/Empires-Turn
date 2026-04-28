@@ -154,6 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e1d90488d2e752488500293b7690226, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IdDataBase: 1
   data: {fileID: 11400000, guid: 0daeeb76f0aa8f54c9bdde8fd047acf2, type: 2}
   stats:
     vidaMaxima: 0
@@ -165,6 +166,26 @@ MonoBehaviour:
     ataqueEspecial: 0
     defensaEspecial: 0
     velocidad: 0
+  statsBase:
+    vidaMaxima: 0
+    vidaActual: 0
+    staminaMaxima: 0
+    staminaActual: 0
+    ataqueFisico: 0
+    defensaFisica: 0
+    ataqueEspecial: 0
+    defensaEspecial: 0
+    velocidad: 0
+  nivelAtaqueFisico: 0
+  nivelDefensaFisica: 0
+  nivelAtaqueEspecial: 0
+  nivelDefensaEspecial: 0
+  nivelVelocidad: 0
+  turnosAtaqueFisico: 0
+  turnosDefensaFisica: 0
+  turnosAtaqueEspecial: 0
+  turnosDefensaEspecial: 0
+  turnosVelocidad: 0
   currentCell: {x: 0, y: 0, z: 0}
   equipo: 0
   cambioColorAlActuar: {fileID: 0}
@@ -175,6 +196,7 @@ MonoBehaviour:
   turnosEstadoRestantes: 0
   estadoActual: 0
   statusType: 0
+  vfxEstadoActual: {fileID: 0}
 --- !u!212 &3268714195712097945
 SpriteRenderer:
   m_ObjectHideFlags: 0

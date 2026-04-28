@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76a0d655c364e7f4ca1986671cbe91e5, type: 3}
+  m_Name: Attack1_Muerte
+  m_EditorClassIdentifier: 
+  nombre: Muerte
+  rango: 2
+  accuracy: 90
+  objective: 0
+  criticRate: 35
+  costeStamina: 35
+  elementalType: 10
+  categoria: 0
+  efectos:
+  - {fileID: 11400000, guid: f031716fd23483043a815e116001a4f6, type: 2}
+  - {fileID: 11400000, guid: 1d6244ec9e73891449ecda4ce2253f36, type: 2}
+  descripcion: "Junta sus 8 tentaculos y penetra el abdomen del enemigo, capaz de
+    da\xF1ar puntos vitales. Adem\xE1s tiene un 20% de envenenar."
+  vfxPrefab: {fileID: 0}
+  duracionAnimacion: 1.5
+  tiempoParaAplicarDano: 0.5

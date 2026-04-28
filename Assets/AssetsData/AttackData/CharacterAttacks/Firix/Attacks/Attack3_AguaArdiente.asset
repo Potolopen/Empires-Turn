@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76a0d655c364e7f4ca1986671cbe91e5, type: 3}
+  m_Name: Attack3_AguaArdiente
+  m_EditorClassIdentifier: 
+  nombre: Agua Ardiente
+  rango: 5
+  accuracy: 80
+  objective: 0
+  criticRate: 15
+  costeStamina: 20
+  elementalType: 0
+  categoria: 1
+  efectos:
+  - {fileID: 11400000, guid: 9463fe819dc275b46bc39bb1b2b25bc8, type: 2}
+  - {fileID: 11400000, guid: d350a1f175d92154585da6b88c59b0bf, type: 2}
+  descripcion: "Escupe un liquido similar al agua al enemigo, infligiendole da\xF1o
+    y tiene una probabilidad de un 30% de ralentizar."
+  vfxPrefab: {fileID: 0}
+  duracionAnimacion: 1.5
+  tiempoParaAplicarDano: 0.5

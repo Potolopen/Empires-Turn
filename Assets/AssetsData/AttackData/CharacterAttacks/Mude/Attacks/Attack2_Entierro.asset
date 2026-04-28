@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76a0d655c364e7f4ca1986671cbe91e5, type: 3}
+  m_Name: Attack2_Entierro
+  m_EditorClassIdentifier: 
+  nombre: Entierro
+  rango: 7
+  accuracy: 80
+  objective: 0
+  criticRate: 0
+  costeStamina: 20
+  elementalType: 3
+  categoria: 2
+  efectos:
+  - {fileID: 11400000, guid: ec82b53d33d40f44781a8241c0284051, type: 2}
+  - {fileID: 11400000, guid: 11f893d39fd27a04887f99d2987c4e94, type: 2}
+  descripcion: "Crea arenas movedizas en la posici\xF3n del enemigo, haciendo que
+    este pierda 45 puntos en Estamina y disminuyendole la Velocidad [2T]."
+  vfxPrefab: {fileID: 0}
+  duracionAnimacion: 1.5
+  tiempoParaAplicarDano: 0.5

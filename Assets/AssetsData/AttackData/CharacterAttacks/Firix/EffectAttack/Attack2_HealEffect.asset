@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63103ba8eead384488cbd9742d40c44b, type: 3}
   m_Name: Attack2_HealEffect
   m_EditorClassIdentifier: 
-  vfxPrefab: {fileID: 0}
-  duracionAnimacion: 1.5
-  heal: 60
+  vfxEffectPrefab: {fileID: 0}
+  vfxEffectDuration: 1.5
+  heal: 75

@@ -1,7 +1,7 @@
 using UnityEngine;
 public abstract class AttackData : ScriptableObject
 {
-    public enum Objective { Enemigos, Aliados }
+    public enum Objective { Enemigos, Aliados, Ambos }
 
     public enum Categoria { Fisico, Especial, Estado }
 

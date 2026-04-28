@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76a0d655c364e7f4ca1986671cbe91e5, type: 3}
+  m_Name: Attack1_Huracan
+  m_EditorClassIdentifier: 
+  nombre: "Hurac\xE1n"
+  rango: 7
+  accuracy: 85
+  objective: 0
+  criticRate: 15
+  costeStamina: 30
+  elementalType: 7
+  categoria: 1
+  efectos:
+  - {fileID: 11400000, guid: cc8467f77c9bec44180968aba456b040, type: 2}
+  - {fileID: 11400000, guid: 0479d0d4008a16c45ad7d87394a7b033, type: 2}
+  descripcion: "Ataca ferozmente con un hurac\xE1n causandole Frio al enemigo en
+    un 100%."
+  vfxPrefab: {fileID: 0}
+  duracionAnimacion: 1.5
+  tiempoParaAplicarDano: 0.5

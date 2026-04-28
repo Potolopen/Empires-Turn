@@ -15,7 +15,11 @@ public class AuthManager : MonoBehaviour
     [Header("Referencias UI")]
     public TMP_InputField inputUsuario;
     public TMP_InputField inputPassword;
+    public TMP_InputField inputUsuarioRegister;
+    public TMP_InputField inputPasswordRegister;
+    public TMP_InputField inputPasswordRegister2;
     public TMP_Text textoMensaje; // Para mostrar errores o éxitos
+    public TMP_Text textoMensajeRegister; // Para mostrar errores o éxitos en registro
 
     public string nombreUsuario;
 
@@ -40,6 +44,14 @@ public class AuthManager : MonoBehaviour
         public string password;
     }
 
+    // Clase para leer la respuesta
+    [System.Serializable]
+    private class LoginResponse
+    {
+        public int usuarioId; // O el nombre exacto que use tu API para la ID
+        public string mensaje;
+    }
+
     // --- MÉTODOS PÚBLICOS PARA LOS BOTONES ---
 
     public void BotonLogin()
@@ -57,10 +69,25 @@ public class AuthManager : MonoBehaviour
 
     public void BotonRegister()
     {
-        if (string.IsNullOrWhiteSpace(inputUsuario.text) || string.IsNullOrWhiteSpace(inputPassword.text))
+        if (string.IsNullOrWhiteSpace(inputUsuarioRegister.text) || string.IsNullOrWhiteSpace(inputPasswordRegister.text) || string.IsNullOrWhiteSpace(inputPasswordRegister2.text))
         {
-            textoMensaje.text = "Por favor, rellena todos los campos.";
-            textoMensaje.color = Color.yellow;
+            textoMensajeRegister.text = "Por favor, rellena todos los campos.";
+            textoMensajeRegister.color = Color.yellow;
+            return;
+        }
+
+        // Mínimo de 8 caracteres para la contraseña
+        if (inputPasswordRegister.text.Length < 8)
+        {
+            textoMensajeRegister.text = "La contraseña debe tener al menos 8 caracteres.";
+            textoMensajeRegister.color = Color.yellow;
+            return;
+        }
+
+        if (inputPasswordRegister.text != inputPasswordRegister2.text)
+        {
+            textoMensajeRegister.text = "Las contraseñas no coinciden.";
+            textoMensajeRegister.color= Color.red;
             return;
         }
 
@@ -71,65 +98,161 @@ public class AuthManager : MonoBehaviour
 
     private IEnumerator EnviarPeticion(string endpoint)
     {
-        // 1. Preparamos los datos
-        LoginRequest datos = new LoginRequest
+        if (endpoint == "/login")
         {
-            nombre = inputUsuario.text,
-            password = inputPassword.text
-        };
-
-        // 2. Convertimos los datos a texto JSON
-        string jsonDatos = JsonUtility.ToJson(datos);
-
-        // 3. Configuramos la petición POST
-        string urlCompleta = baseUrl + endpoint;
-        using (UnityWebRequest request = new UnityWebRequest(urlCompleta, "POST"))
-        {
-            // Convertimos el JSON a bytes para enviarlo
-            byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(jsonDatos);
-            request.uploadHandler = new UploadHandlerRaw(bodyRaw);
-            request.downloadHandler = new DownloadHandlerBuffer();
-
-            // Le decimos a la API que le estamos enviando un JSON
-            request.SetRequestHeader("Content-Type", "application/json");
-
-            // 4. Enviamos la petición y esperamos la respuesta
-            yield return request.SendWebRequest();
-
-            // 5. Analizamos el resultado
-            if (request.result == UnityWebRequest.Result.ConnectionError)
+            // 1. Preparamos los datos
+            LoginRequest datos = new LoginRequest
             {
-                textoMensaje.text = "Error de conexión con el servidor.";
-                textoMensaje.color = Color.red;
-            }
-            else if (request.responseCode == 200) // 200 es el código de éxito (OK)
+                nombre = inputUsuario.text,
+                password = inputPassword.text
+            };
+
+            // 2. Convertimos los datos a texto JSON
+            string jsonDatos = JsonUtility.ToJson(datos);
+
+            // 3. Configuramos la petición POST
+            string urlCompleta = baseUrl + endpoint;
+            using (UnityWebRequest request = new UnityWebRequest(urlCompleta, "POST"))
             {
-                textoMensaje.text = "¡Éxito! " + endpoint + " correcto.";
-                textoMensaje.color = Color.green;
-                nombreUsuario = inputUsuario.text;
-                inputUsuario.text = null;
-                inputPassword.text = null;
-                textoMensaje.text = null;
-                // Aquí llamamos a la funcion de MenuUIManager para cambiar de panel
-                MenuUIManager.instance.MostrarMenuPrincipal();
-                
-            }
-            else if(request.responseCode == 400)// Error 400 (usuario repetido)
-            {
-                textoMensaje.text = "Error: Este usuario ya existe";
-                textoMensaje.color = Color.red;
-            }
-            else if (request.responseCode == 401)// Error 400 (usuario inexistente)
-            {
-                textoMensaje.text = "Error: Este usuario no existe";
-                textoMensaje.color = Color.red;
-            }
-            else
-            {
-                // Ahora Unity nos mostrará exactamente el texto real que envía tu API
-                textoMensaje.text = "Error " + request.responseCode + ": " + request.downloadHandler.text;
-                textoMensaje.color = Color.red;
+                // Convertimos el JSON a bytes para enviarlo
+                byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(jsonDatos);
+                request.uploadHandler = new UploadHandlerRaw(bodyRaw);
+                request.downloadHandler = new DownloadHandlerBuffer();
+
+                // Le decimos a la API que le estamos enviando un JSON
+                request.SetRequestHeader("Content-Type", "application/json");
+
+                // 4. Enviamos la petición y esperamos la respuesta
+                textoMensaje.text = "Cargando...";
+                textoMensaje.color = Color.yellow;
+                yield return request.SendWebRequest();
+
+                // 5. Analizamos el resultado
+                if (request.result == UnityWebRequest.Result.ConnectionError)
+                {
+                    textoMensaje.text = "Error de conexión con el servidor.";
+                    textoMensaje.color = Color.red;
+                }
+                else if (request.responseCode == 200) // 200 es el código de éxito (OK)
+                {
+                    textoMensaje.text = "";
+                    // Leemos el texto JSON que el servidor nos ha devuelto
+                    string textoRespuesta = request.downloadHandler.text;
+
+                    // Lo convertimos a nuestra clase LoginResponse
+                    LoginResponse respuesta = JsonUtility.FromJson<LoginResponse>(textoRespuesta);
+
+                    // Guardamos la ID en PlayerPrefs
+                    // Así el GameManager podrá leerla en la otra escena
+                    PlayerPrefs.SetInt("IdUsuarioLogueado", respuesta.usuarioId);
+                    PlayerPrefs.SetString("NombreUsuarioLogueado", inputUsuario.text);
+                    PlayerPrefs.Save(); // Aseguramos que se guarde en la memoria
+
+                    // Mostramos el nombre del usuario
+                    nombreUsuario = inputUsuario.text;
+
+                    inputUsuario.text = null;
+                    inputPassword.text = null;
+
+                    // Cambiamos de panel gracias al MenuUIManager
+                    MenuUIManager.instance.MostrarMenuPrincipal();
+
+                }
+                else if (request.responseCode == 400)// Error 400 (usuario repetido)
+                {
+                    textoMensaje.text = "Error: Este usuario ya existe";
+                    textoMensaje.color = Color.red;
+                }
+                else if (request.responseCode == 401)// Error 400 (usuario inexistente)
+                {
+                    textoMensaje.text = "Error: Este usuario no existe";
+                    textoMensaje.color = Color.red;
+                }
+                else
+                {
+                    // Ahora Unity nos mostrará exactamente el texto real que envía tu API
+                    textoMensaje.text = "Error " + request.responseCode + ": " + request.downloadHandler.text;
+                    textoMensaje.color = Color.red;
+                }
             }
         }
+        else
+        {
+            // 1. Preparamos los datos
+            LoginRequest datos = new LoginRequest
+            {
+                nombre = inputUsuarioRegister.text,
+                password = inputPasswordRegister.text
+            };
+
+            // 2. Convertimos los datos a texto JSON
+            string jsonDatos = JsonUtility.ToJson(datos);
+
+            // 3. Configuramos la petición POST
+            string urlCompleta = baseUrl + endpoint;
+            using (UnityWebRequest request = new UnityWebRequest(urlCompleta, "POST"))
+            {
+                // Convertimos el JSON a bytes para enviarlo
+                byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(jsonDatos);
+                request.uploadHandler = new UploadHandlerRaw(bodyRaw);
+                request.downloadHandler = new DownloadHandlerBuffer();
+
+                // Le decimos a la API que le estamos enviando un JSON
+                request.SetRequestHeader("Content-Type", "application/json");
+
+                // 4. Enviamos la petición y esperamos la respuesta
+                yield return request.SendWebRequest();
+
+                // 5. Analizamos el resultado
+                if (request.result == UnityWebRequest.Result.ConnectionError)
+                {
+                    textoMensaje.text = "Error de conexión con el servidor.";
+                    textoMensaje.color = Color.red;
+                }
+                else if (request.responseCode == 200) // 200 es el código de éxito (OK)
+                {
+                    // 1. Leemos el texto JSON que el servidor nos ha devuelto
+                    string textoRespuesta = request.downloadHandler.text;
+
+                    // 2. Lo convertimos a nuestra clase LoginResponse
+                    LoginResponse respuesta = JsonUtility.FromJson<LoginResponse>(textoRespuesta);
+
+                    // 3. ¡EL TRUCO MAGICO! Guardamos la ID en PlayerPrefs
+                    // Así el GameManager podrá leerla en la otra escena
+                    PlayerPrefs.SetInt("IdUsuarioLogueado", respuesta.usuarioId);
+                    PlayerPrefs.SetString("NombreUsuarioLogueado", inputUsuarioRegister.text);
+                    PlayerPrefs.Save(); // Aseguramos que se guarde en la memoria
+
+                    // 4. Continuamos con tu código normal
+
+                    inputUsuarioRegister.text = null;
+                    inputPasswordRegister.text = null;
+                    inputPasswordRegister2.text = null;
+
+                    textoMensaje.text = "¡Usuario creado correctamente!";
+                    textoMensaje.color = Color.green;
+                    // Cambiamos de panel gracias al MenuUIManager
+                    MenuUIManager.instance.SalirRegistro();
+
+                }
+                else if (request.responseCode == 400)// Error 400 (usuario repetido)
+                {
+                    textoMensajeRegister.text = "Error: Este usuario ya existe";
+                    textoMensajeRegister.color = Color.red;
+                }
+                else if (request.responseCode == 401)// Error 400 (usuario inexistente)
+                {
+                    textoMensajeRegister.text = "Error: Este usuario no existe";
+                    textoMensajeRegister.color = Color.red;
+                }
+                else
+                {
+                    // Ahora Unity nos mostrará exactamente el texto real que envía tu API
+                    textoMensajeRegister.text = "Error " + request.responseCode + ": " + request.downloadHandler.text;
+                    textoMensajeRegister.color = Color.red;
+                }
+            }
+        }
+        
     }
 }

@@ -104,6 +104,7 @@ public class CombatManager : MonoBehaviour
         if (character.statusType == StatusType.Neutro) return;
 
         int valorTotal = 0;
+        bool haceDaño = true;
 
         switch (character.statusType)
         {
@@ -129,30 +130,22 @@ public class CombatManager : MonoBehaviour
                 }
                 break;
             case StatusType.Lentitud:
-                
-                if (character.turnosEstadoRestantes == 3)
-                {
-                    valorTotal = Mathf.CeilToInt(character.stats.velocidad * 0.2f);
-                }
-                else if (character.turnosEstadoRestantes == 2)
-                {
-                    valorTotal = Mathf.CeilToInt(character.stats.velocidad * 0.4f);
-                }
-                else
-                {
-                    valorTotal = Mathf.CeilToInt(character.stats.velocidad * 0.8f);
-                }
+
+                haceDaño = false;
                 break;
         }
-        if (character.statusType != StatusType.Lentitud)
+
+        // 1. Aplicamos daño a la vida si el estado lo requiere
+        if (haceDaño && valorTotal > 0)
         {
-            character.stats.vidaActual = character.stats.vidaActual - valorTotal;
-        }
-        else
-        {
-            character.stats.velocidad = character.stats.velocidad + valorTotal;
+            // Usamos tu método ya creado. ¡Él se encarga del texto flotante y de comprobar si muere!
+            character.RecibirDaño(valorTotal);
         }
         
+        if (character.stats.vidaActual <= 0)
+        {
+            return;
+        }
 
         character.turnosEstadoRestantes--;
 
@@ -230,19 +223,44 @@ public class CombatManager : MonoBehaviour
                 else if (defensor == ElementalType.Fuego) multi = 0.5f; // Agua apaga Fuego
                 break;
 
-            case ElementalType.Electrico:
-                if (defensor == ElementalType.Acero) multi = 2.0f; // Electricidad domina Acero
+            case ElementalType.Tierra:
+                if (defensor == ElementalType.Electrico) multi = 2.0f; // Electricidad domina Acero
                 else if (defensor == ElementalType.Planta) multi = 0.5f; // Agua apaga Fuego
                 break;
 
+            case ElementalType.Electrico:
+                if (defensor == ElementalType.Acero) multi = 2.0f; // Electricidad domina Acero
+                else if (defensor == ElementalType.Tierra) multi = 0.5f; // Agua apaga Fuego
+                break;
+
             case ElementalType.Acero:
-                if (defensor == ElementalType.Toxico) multi = 2.0f; // Acero domina Toxico
+                if (defensor == ElementalType.Hielo) multi = 2.0f; // Acero domina Toxico
                 else if (defensor == ElementalType.Electrico) multi = 0.5f; // Agua apaga Fuego
+                break;
+
+            case ElementalType.Hielo:
+                if (defensor == ElementalType.Viento) multi = 2.0f; // Acero domina Toxico
+                else if (defensor == ElementalType.Acero) multi = 0.5f; // Agua apaga Fuego
+                break;
+
+            case ElementalType.Viento:
+                if (defensor == ElementalType.Sonico) multi = 2.0f; // Acero domina Toxico
+                else if (defensor == ElementalType.Hielo) multi = 0.5f; // Agua apaga Fuego
+                break;
+
+            case ElementalType.Sonico:
+                if (defensor == ElementalType.Mente) multi = 2.0f; // Acero domina Toxico
+                else if (defensor == ElementalType.Viento) multi = 0.5f; // Agua apaga Fuego
+                break;
+
+            case ElementalType.Mente:
+                if (defensor == ElementalType.Toxico) multi = 2.0f; // Acero domina Toxico
+                else if (defensor == ElementalType.Sonico) multi = 0.5f; // Agua apaga Fuego
                 break;
 
             case ElementalType.Toxico:
                 if (defensor == ElementalType.Agua) multi = 2.0f; // Tóxico domina Agua
-                else if (defensor == ElementalType.Acero) multi = 0.5f; // Agua apaga Fuego
+                else if (defensor == ElementalType.Mente) multi = 0.5f; // Agua apaga Fuego
                 break;
 
                 // Si el atacante es Normal, o cualquier otro que no esté aquí, 
@@ -262,6 +280,10 @@ public class CombatManager : MonoBehaviour
 
         if (ataqueSeleccionado != null && atacante.stats.staminaActual >= ataqueSeleccionado.costeStamina)
         {
+            atacante.isActing = true;
+            atacante.characterAct = true;
+            atacante.characterAttacked = true;
+
             int attackAccuracy = ataqueSeleccionado.accuracy;
             attackAccuracy = Mathf.CeilToInt(attackAccuracy * CalcularClase(atacante.data.classType, enemigo.data.classType));
             // Precisión
@@ -274,10 +296,8 @@ public class CombatManager : MonoBehaviour
                 ataqueActualAcerto = true;
             }*/
 
-            if (ataqueActualAcerto)
+            if (ataqueActualAcerto && (ataqueSeleccionado.objective == AttackData.Objective.Enemigos || ataqueSeleccionado.objective == AttackData.Objective.Ambos && atacante.equipo != enemigo.equipo))
             {
-                atacante.characterAct = true;
-                atacante.characterAttacked = true;
                 // Crítico
                 int azarCritico = Random.Range(1, 101);
                 ataqueActualEsCritico = (azarCritico <= ataqueSeleccionado.criticRate);
@@ -298,10 +318,25 @@ public class CombatManager : MonoBehaviour
                     CombatVisualManager.instance.ProcesarAtaqueVisual(atacante, enemigo, ataqueSeleccionado);
                 }  
             }
+            else if (ataqueSeleccionado.objective == AttackData.Objective.Aliados || ataqueSeleccionado.objective == AttackData.Objective.Ambos && atacante.equipo == enemigo.equipo)
+            {
+                Debug.Log($"{atacante.data.nombre} usa {ataqueSeleccionado.nombre} contra {enemigo.data.nombre}");
+
+                // --- CAMBIO AQUÍ ---
+                // Le pasamos el control al AttackVisualManager. Él pausará el tiempo,
+                // mostrará la animación y luego ejecutará el daño y llamará a FinalizarLimpiezaDeAtaque.
+                if (CombatVisualManager.instance != null)
+                {
+                    CombatVisualManager.instance.ProcesarAtaqueVisual(atacante, enemigo, ataqueSeleccionado);
+                }
+
+                Debug.Log("Aqui acierta siempre brrr");
+            }
             else
             {
                 Debug.Log("<color=red>¡El ataque ha fallado!</color>");
                 // Si falla, no hay animación que esperar, así que limpiamos inmediatamente.
+                CombatVisualManager.instance.MostrarTextoFlotante(atacante.transform.position, "¡¡Ha fallado!!", Color.cyan);
                 FinalizarLimpiezaDeAtaque(atacante);
             }
         }
@@ -320,6 +355,31 @@ public class CombatManager : MonoBehaviour
         if (ataqueSeleccionado != null)
         {
             atacante.stats.staminaActual -= ataqueSeleccionado.costeStamina;
+
+            if (CombatVisualManager.instance != null)
+            {
+                CombatVisualManager.instance.MostrarTextoFlotante(atacante.transform.position, $"-{ataqueSeleccionado.costeStamina}", Color.yellow);
+            }
+
+            // Miramos si la variable isForcingMovement es falso o true, es para ataques que te muevan hacia el enemigo.
+            CharacterMovement mov = atacante.GetComponent<CharacterMovement>();
+
+            // Si el personaje está en medio de un Dash, NO lo liberamos todavía.
+            if (mov != null && mov.isForcingMovement)
+            {
+                Debug.Log("El ataque limpió la UI, pero el personaje sigue moviéndose. isActing se liberará al terminar la embestida.");
+            }
+            else
+            {
+                // Comportamiento normal para ataques estáticos
+                atacante.isActing = false;
+                Debug.Log("Ha dejado de actuar!!!");
+
+                /*if (atacante.estadoActual == CharacterEntity.UnidadEstado.Apuntando)
+                {
+                    atacante.estadoActual = CharacterEntity.UnidadEstado.EligiendoAccion;
+                }*/
+            }
         }
 
         // Opcional: Asegurar que la stamina no sea negativa

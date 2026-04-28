@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76a0d655c364e7f4ca1986671cbe91e5, type: 3}
+  m_Name: Attack3_Magma
+  m_EditorClassIdentifier: 
+  nombre: Magma
+  rango: 7
+  accuracy: 90
+  objective: 0
+  criticRate: 15
+  costeStamina: 35
+  elementalType: 1
+  categoria: 1
+  efectos:
+  - {fileID: 11400000, guid: 2099ca42ae54974428438e8a11e9913d, type: 2}
+  - {fileID: 11400000, guid: a3715776728261341b7ef35c91807f5c, type: 2}
+  descripcion: Crea magma proveniente del nucleo del planeta causando que haya un
+    60% de probabilidades de quemar al rival.
+  vfxPrefab: {fileID: 0}
+  duracionAnimacion: 1.5
+  tiempoParaAplicarDano: 0.5

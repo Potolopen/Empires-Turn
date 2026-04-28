@@ -8,6 +8,7 @@ public struct InfoModificacion
     public StatType statAfectada;
     public int cantidadModificacion;
     public int duracionTurnos;
+    public bool esParaEnemigo;
     [Range(1, 100)] // Añadir esto es un truco genial para que en el Inspector te salga una barrita deslizable del 1 al 100
     public int probabilidad;
 }
@@ -22,6 +23,10 @@ public class BuffsEffect : AttackEffect
 
     public override void Aplicar(CharacterEntity atacante, CharacterEntity objetivo)
     {
+        // Creamos "interruptores" para saber si sonó algo
+        bool aplicoBufo = false;
+        bool aplicoDebufo = false;
+
         // 3. Recorremos la lista y aplicamos CADA modificación al objetivo
         foreach (var mod in modificaciones)
         {
@@ -29,10 +34,48 @@ public class BuffsEffect : AttackEffect
 
             if (azarPrecision <= mod.probabilidad)
             {
-                objetivo.AñadirModificadorDeStat(mod.statAfectada, mod.cantidadModificacion, mod.duracionTurnos);
+                if (mod.esParaEnemigo)
+                {
+                    objetivo.AñadirModificadorDeStat(mod.statAfectada, mod.cantidadModificacion, mod.duracionTurnos);
 
-                Debug.Log($"{atacante.data.nombre} modificó {mod.statAfectada} de {objetivo.data.nombre} en {mod.cantidadModificacion} niveles por {mod.duracionTurnos} turnos.");
+                    if (mod.cantidadModificacion > 0)
+                    {
+                        aplicoBufo = true;
+                    }
+                    else if (mod.cantidadModificacion < 0)
+                    {
+                        aplicoDebufo = true;
+                    }
+
+
+                    Debug.Log($"{atacante.data.nombre} modificó {mod.statAfectada} de {objetivo.data.nombre} en {mod.cantidadModificacion} niveles por {mod.duracionTurnos} turnos.");
+                }
+                else
+                {
+                    atacante.AñadirModificadorDeStat(mod.statAfectada, mod.cantidadModificacion, mod.duracionTurnos);
+
+                    if (mod.cantidadModificacion > 0)
+                    {
+                        aplicoBufo = true;
+                    }
+                    else if (mod.cantidadModificacion < 0)
+                    {
+                        aplicoDebufo = true;
+                    }
+
+
+                    Debug.Log($"{atacante.data.nombre} modificó {mod.statAfectada} de {atacante.data.nombre} en {mod.cantidadModificacion} niveles por {mod.duracionTurnos} turnos.");
+                }
+
             }
+        }
+        if (aplicoBufo)
+        {
+            AudioManager.instance.SonidoBufo();
+        }
+        else if (aplicoDebufo)
+        {
+            AudioManager.instance.SonidoDebufo();
         }
     }
 }

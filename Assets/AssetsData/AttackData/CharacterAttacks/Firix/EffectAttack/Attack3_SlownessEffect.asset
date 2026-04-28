@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vfxEffectPrefab: {fileID: 397085091944790945, guid: 884b58e6c0d4c274f8af7e4ca84e87fa, type: 3}
   vfxEffectDuration: 1
-  accuracy: 100
+  accuracy: 30

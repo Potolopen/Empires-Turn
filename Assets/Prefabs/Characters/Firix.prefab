@@ -49,6 +49,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e1d90488d2e752488500293b7690226, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IdDataBase: 2
   data: {fileID: 11400000, guid: 9a3f7bc6a8b8df34bb0b75906682ed26, type: 2}
   stats:
     vidaMaxima: 0
@@ -60,6 +61,26 @@ MonoBehaviour:
     ataqueEspecial: 0
     defensaEspecial: 0
     velocidad: 0
+  statsBase:
+    vidaMaxima: 0
+    vidaActual: 0
+    staminaMaxima: 0
+    staminaActual: 0
+    ataqueFisico: 0
+    defensaFisica: 0
+    ataqueEspecial: 0
+    defensaEspecial: 0
+    velocidad: 0
+  nivelAtaqueFisico: 0
+  nivelDefensaFisica: 0
+  nivelAtaqueEspecial: 0
+  nivelDefensaEspecial: 0
+  nivelVelocidad: 0
+  turnosAtaqueFisico: 0
+  turnosDefensaFisica: 0
+  turnosAtaqueEspecial: 0
+  turnosDefensaEspecial: 0
+  turnosVelocidad: 0
   currentCell: {x: 0, y: 0, z: 0}
   equipo: 0
   cambioColorAlActuar: {fileID: 0}
@@ -70,6 +91,7 @@ MonoBehaviour:
   turnosEstadoRestantes: 0
   estadoActual: 0
   statusType: 0
+  vfxEstadoActual: {fileID: 0}
 --- !u!212 &5983376058308723708
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -199,8 +221,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8bbabb4ed4579b448c01123b94e49b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localHealthBarFill: {fileID: 0}
-  localStaminaBarFill: {fileID: 0}
   suavizadoBarra: 5
 --- !u!1 &2842236249819891045
 GameObject:

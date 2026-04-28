@@ -18,13 +18,13 @@ MonoBehaviour:
   objective: 1
   criticRate: 0
   costeStamina: 25
-  elementalType: 7
+  elementalType: 11
   categoria: 2
   efectos:
   - {fileID: 11400000, guid: 9e9042af2feb30344bd496ff42c24ce8, type: 2}
   - {fileID: 11400000, guid: 5ae1e5f9253ea0d44acf6294a6882dcb, type: 2}
-  descripcion: Hace una pausa para centrarse, recuperando 25 puntos de vida y subiendose
-    el ataque fisico y la defensa fisica a +2.
+  descripcion: Hace una pausa para centrarse, recuperando 55 puntos de vida y subiendose
+    el Ataque Fisico [2T] y la Defensa Fisica [1T].
   vfxPrefab: {fileID: 7257281867272832474, guid: 2a4323b88238be74395d7f56cc81c29a, type: 3}
   duracionAnimacion: 1.5
   tiempoParaAplicarDano: 1

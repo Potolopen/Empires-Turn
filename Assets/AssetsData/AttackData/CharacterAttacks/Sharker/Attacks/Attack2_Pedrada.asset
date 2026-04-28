@@ -16,7 +16,7 @@ MonoBehaviour:
   rango: 4
   accuracy: 90
   objective: 0
-  criticRate: 25
+  criticRate: 30
   costeStamina: 15
   elementalType: 3
   categoria: 1

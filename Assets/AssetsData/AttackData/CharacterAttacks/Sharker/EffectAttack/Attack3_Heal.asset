@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vfxEffectPrefab: {fileID: 0}
   vfxEffectDuration: 1.5
-  heal: 25
+  heal: 55

@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using UnityEngine.EventSystems;
@@ -23,6 +22,9 @@ public class CharacterMovement : MonoBehaviour
 
     private bool startAct; // Para mirar si ya habia actuado, esto servirá para que cuando retrocedas tu movimiento, si no hiciste nada antes, characterAct se desactive, si
     //hiciste algo antes del mov, y retrocedes no se desactivará.
+
+    // NUEVA VARIABLE: Para que otros scripts sepan que estamos en medio de un Dash
+    public bool isForcingMovement = false;
 
     // Array con las cuatro direcciones cardinales, usado para BFS
     static readonly Vector3Int[] directions = {
@@ -90,7 +92,7 @@ public class CharacterMovement : MonoBehaviour
                 if (currentlySelected != null && currentlySelected != this)
                 {
                     // Si el personaje actual se está moviendo, está apuntando, o YA SE MOVIÓ y no ha terminado su turno...
-                    if (currentlySelected.character.isMoving ||
+                    if (currentlySelected.character.isActing ||
                         currentlySelected.character.estadoActual == CharacterEntity.UnidadEstado.Apuntando ||
                         currentlySelected.character.characterMoved) // <-- ESTA ES LA CLAVE
                     {
@@ -123,7 +125,7 @@ public class CharacterMovement : MonoBehaviour
             else if (seleccionado) // En caso de estar seleccionado
             {
                 // CASO A: El personaje está en modo ATAQUE (Casillas rojas)
-                if (character.estadoActual == CharacterEntity.UnidadEstado.Apuntando)
+                if (CombatManager.instance.ataqueSeleccionado != null && character.estadoActual == CharacterEntity.UnidadEstado.Apuntando)
                 {
                     if (Input.GetMouseButtonDown(0))
                     {
@@ -164,14 +166,14 @@ public class CharacterMovement : MonoBehaviour
                     if (EsCasillaValida(celda) && !character.characterMoved)
                     {
                         currentlySelected.character.characterAttacked = false;
-                        character.isMoving = true; // Marcamos que se está moviendo
+                        character.isActing = true; // Marcamos que se está moviendo
                         character.characterMoved = true;
                         StartCoroutine(MoverHaciaCelda(celda)); // Iniciamos movimiento
                     }
                 }
             }
         }
-        if (Input.GetMouseButtonDown(1) && currentlySelected != null)
+        if (Input.GetMouseButtonDown(1) && currentlySelected != null && !character.isActing && !currentlySelected.isForcingMovement)
         {
             // 🚨 LA CLAVE: Solo dejamos que el personaje actualmente seleccionado maneje este bloque.
             // Así evitamos que los otros 10 personajes del mapa intenten deseleccionarse a la vez.
@@ -183,7 +185,7 @@ public class CharacterMovement : MonoBehaviour
                 UIManager.instance.OnClickCancelar();
             }
             // 2. Retroceder movimiento: solo si el personaje no ha atacado.
-            else if (character.characterMoved && !character.isMoving && !character.characterAttacked)
+            else if (character.characterMoved && !character.characterAttacked)
             {
                 UIManager.instance.OnClickAtras();
                 UIManager.instance.ShowActionMenu(character, this);
@@ -242,7 +244,7 @@ public class CharacterMovement : MonoBehaviour
         AsignarCasilla(character.currentCell);
 
         // Fin de movimiento
-        character.isMoving = false;
+        character.isActing = false;
         character.characterAct = true;
     }
 
@@ -406,5 +408,90 @@ public class CharacterMovement : MonoBehaviour
             // 3. Ya se movió y ya atacó. Aquí sí limpiamos la pantalla.
             movementOverlay.ClearAllTiles();
         }
+    }
+
+    // ------ ESTO ES PARA EL EFECTO DE ATAQUE MOVE TO TARGET ------
+
+    // Método público que es llamado desde el MoveToTargetEffect
+    public void ForzarMovimiento(Vector3Int destino)
+    {
+        List<Vector3Int> ruta = CalcularRutaRapida(character.currentCell, destino);
+        StartCoroutine(MoverPorRutaForzada(ruta));
+    }
+
+    // Calcula el camino más corto celda a celda ignorando el coste de movimiento
+    private List<Vector3Int> CalcularRutaRapida(Vector3Int start, Vector3Int destino)
+    {
+        Queue<Vector3Int> queue = new Queue<Vector3Int>();
+        Dictionary<Vector3Int, Vector3Int> parentMap = new Dictionary<Vector3Int, Vector3Int>();
+
+        queue.Enqueue(start);
+        parentMap[start] = start;
+
+        while (queue.Count > 0)
+        {
+            Vector3Int actual = queue.Dequeue();
+
+            if (actual == destino) break; // Si llegamos al destino, terminamos de buscar
+
+            foreach (Vector3Int dir in directions) // directions ya existe en tu script
+            {
+                Vector3Int vecino = actual + dir;
+
+                if (!parentMap.ContainsKey(vecino))
+                {
+                    // Solo pasamos por casillas transitables (aliados o vacías) 
+                    // o directamente por el destino.
+                    if (PuedeAtravesar(vecino) || vecino == destino)
+                    {
+                        parentMap[vecino] = actual;
+                        queue.Enqueue(vecino);
+                    }
+                }
+            }
+        }
+
+        // Reconstruimos la ruta desde el destino hacia el inicio
+        List<Vector3Int> ruta = new List<Vector3Int>();
+        if (parentMap.ContainsKey(destino))
+        {
+            Vector3Int temp = destino;
+            while (temp != start)
+            {
+                ruta.Add(temp);
+                temp = parentMap[temp];
+            }
+            ruta.Reverse(); // Le damos la vuelta para ir del inicio al destino
+        }
+        return ruta;
+    }
+
+    // Corrutina que mueve al personaje casilla por casilla
+    private IEnumerator MoverPorRutaForzada(List<Vector3Int> ruta)
+    {
+        isForcingMovement = true; // Avisamos de que empezamos a forzar movimiento
+        character.isActing = true;
+
+        LiberarCasilla(character.currentCell);
+
+        foreach (Vector3Int celda in ruta)
+        {
+            Vector3 objetivo = GridManager.instance.tilemap.GetCellCenterWorld(celda);
+
+            while ((character.transform.position - objetivo).sqrMagnitude > 0.01f)
+            {
+                character.transform.position = Vector3.MoveTowards(character.transform.position, objetivo, 15f * Time.deltaTime);
+                yield return null;
+            }
+
+            character.transform.position = objetivo;
+            character.currentCell = celda;
+        }
+
+        AsignarCasilla(character.currentCell);
+
+        // --- FIN DEL MOVIMIENTO ---
+        isForcingMovement = false;
+        character.isActing = false; // AHORA SÍ liberamos el bloqueo
     }
 }

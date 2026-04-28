@@ -90,12 +90,21 @@ public class TurnManager : MonoBehaviour
     {
         if (turnoActual == 1)
         {
-            foreach (var p in charactersPJ1)
+            // Usamos un bucle for INVERSO. Si se borra un personaje, no rompe la iteración.
+            for (int i = charactersPJ1.Count - 1; i >= 0; i--)
             {
-                // 1. Efectos de daño (Quemadura, Veneno...)
+                CharacterEntity p = charactersPJ1[i];
+
+                // Efectos de daño (Quemadura, Veneno...)
                 CombatManager.instance.EfectosDeEstado(p);
 
-                // 2. NUEVO: Disminuir contadores de Bufos/Debufos
+                // Descontamos los turnos de transformación del personaje
+                p.ActualizarTurnoTransformacion();
+
+                // Si el personaje murió o es nulo, saltamos al siguiente personaje (puede morir por los efectos).
+                if (p == null || p.stats.vidaActual <= 0) continue;
+
+                // Disminuir contadores de Bufos/Debufos
                 p.ActualizarTurnosModificadores();
 
                 if (p.stats.staminaActual < p.stats.staminaMaxima)
@@ -104,14 +113,24 @@ public class TurnManager : MonoBehaviour
                 }
                 RestablecerTurno(p);
             }
+
             foreach (var p in charactersPJ2) TerminarTurno(p);
         }
         else if (turnoActual == 2)
         {
-            foreach (var p in charactersPJ2)
+            // 1. Bucle for INVERSO para el jugador 2
+            for (int i = charactersPJ2.Count - 1; i >= 0; i--)
             {
+                CharacterEntity p = charactersPJ2[i];
+
                 // 1. Efectos de daño
                 CombatManager.instance.EfectosDeEstado(p);
+
+                // Descontamos los turnos de transformación del personaje
+                p.ActualizarTurnoTransformacion();
+
+                // Ver si ha muerto o no
+                if (p == null || p.stats.vidaActual <= 0) continue;
 
                 // 2. NUEVO: Disminuir contadores de Bufos/Debufos
                 p.ActualizarTurnosModificadores();
@@ -122,6 +141,7 @@ public class TurnManager : MonoBehaviour
                 }
                 RestablecerTurno(p);
             }
+
             foreach (var p in charactersPJ1) TerminarTurno(p);
         }
     }
@@ -129,7 +149,7 @@ public class TurnManager : MonoBehaviour
     public void TerminarTurno(CharacterEntity character)
     {
         // Hago que isMoving se quede en false ya que ya no se mueve.
-        character.isMoving = false;
+        character.isActing = false;
         // Hago que characterMoved esté en falso ya que al acabar el turno ya nos da igual si se ha movido o no.
         character.characterMoved = false;
 

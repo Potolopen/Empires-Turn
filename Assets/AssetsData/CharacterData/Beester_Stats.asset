@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e4f969954ee11e40b981c9fc8eb747e, type: 3}
+  m_Name: Beester_Stats
+  m_EditorClassIdentifier: 
+  idDataBase: 8
+  nombre: Beester
+  stats:
+    vidaMaxima: 200
+    vidaActual: 200
+    staminaMaxima: 100
+    staminaActual: 100
+    ataqueFisico: 35
+    defensaFisica: 25
+    ataqueEspecial: 65
+    defensaEspecial: 80
+    velocidad: 60
+  ability:
+    nombre: 
+  attacks:
+  - {fileID: 11400000, guid: 4adc3f2fe8bda154bb9935aabdeedad3, type: 2}
+  - {fileID: 11400000, guid: c1374189271d1c54a9af5d051fb450e7, type: 2}
+  - {fileID: 11400000, guid: 74396715a18610d49a4377b2695363a6, type: 2}
+  tipoMovilidad: 2
+  elementalType: 7
+  classType: 1
+  iconoTipo: {fileID: 21300000, guid: 2ad88a12c8dd15840922d2625e861e8d, type: 3}
+  iconoClase: {fileID: 21300000, guid: f300c707b74ceb9489e3c6050a3f26a8, type: 3}
+  iconoMovilidad: {fileID: 21300000, guid: 9929112a180bee940a9851e1fb75ea71, type: 3}
+  characterFace: {fileID: 21300000, guid: 71ebebc48cacddc4cb38883b25516a03, type: 3}

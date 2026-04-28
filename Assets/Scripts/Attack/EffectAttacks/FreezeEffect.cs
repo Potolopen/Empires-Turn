@@ -15,7 +15,7 @@ public class FreezeEffect : AttackEffect
         {
             objetivo.statusType = StatusType.Frio;
             objetivo.turnosEstadoRestantes = 3;
-            objetivo.stats.ataqueEspecial = Mathf.CeilToInt(objetivo.stats.ataqueEspecial * 0.5f);
+            objetivo.RecalcularEstadisticas();
             Debug.Log(objetivo.data.nombre + "sufre frio a manos de " + atacante.data.nombre);
         }
     }

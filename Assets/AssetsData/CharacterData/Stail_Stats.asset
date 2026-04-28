@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e4f969954ee11e40b981c9fc8eb747e, type: 3}
+  m_Name: Stail_Stats
+  m_EditorClassIdentifier: 
+  idDataBase: 6
+  nombre: Stail
+  stats:
+    vidaMaxima: 300
+    vidaActual: 300
+    staminaMaxima: 130
+    staminaActual: 130
+    ataqueFisico: 45
+    defensaFisica: 100
+    ataqueEspecial: 20
+    defensaEspecial: 55
+    velocidad: 30
+  ability:
+    nombre: 
+  attacks:
+  - {fileID: 11400000, guid: 85de0011a98841b4aa9cc3bdafcc9726, type: 2}
+  - {fileID: 11400000, guid: dc308ea94f6163e4e865b0ff37a95f46, type: 2}
+  - {fileID: 11400000, guid: 31a69a1522701694990d126773f6f350, type: 2}
+  tipoMovilidad: 0
+  elementalType: 5
+  classType: 1
+  iconoTipo: {fileID: 21300000, guid: ae289a68bf89dcb46b3fd6c275b79413, type: 3}
+  iconoClase: {fileID: 21300000, guid: f300c707b74ceb9489e3c6050a3f26a8, type: 3}
+  iconoMovilidad: {fileID: 21300000, guid: 2ed93ddc95ec0a9419b39b8d40fa58d4, type: 3}
+  characterFace: {fileID: 21300000, guid: 6d3b4903fed7391419828e8b3b19e286, type: 3}

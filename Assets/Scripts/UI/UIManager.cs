@@ -56,7 +56,9 @@ public class UIManager : MonoBehaviour
     [SerializeField] public TextMeshProUGUI infoTerrain;
 
     [SerializeField] private Button firstAttackButton, secondAttackButton, thirdAttackButton, attackButton;
-    [SerializeField] private GameObject actionMenu, attackMenu, buttonsPanel, attackInfoPanel;
+    [SerializeField] private GameObject actionMenu, attackMenu, buttonsPanel, attackInfoPanel, infoTerrainPanel, finalizarPanel, surrenderButton, continueButton;
+
+    public TextMeshProUGUI textoMenu; // Es para poner el texto que debe salir cuando la partida finalice.
 
     [SerializeField] private float suavizadoBarra = 5f; // Velocidad de la animación de la barra
 
@@ -142,12 +144,12 @@ public class UIManager : MonoBehaviour
         if (nivelMod > 0)
         {
             // Bufo: Ponemos ^ y el nivel
-            textoStat.text += $" <size=80%>(^{nivelMod})</size>";
+            textoStat.text += $" <size=80%>(^1)</size>";
         }
         else if (nivelMod < 0)
         {
             // Debufo: Ponemos v y el nivel en positivo (Mathf.Abs) para que no salga v-1
-            textoStat.text += $" <size=80%>(v{Mathf.Abs(nivelMod)})</size>";
+            textoStat.text += $" <size=80%>(v1)</size>";
         }
 
         // 4. Añadimos el Reloj de Turnos al final (en amarillo)
@@ -202,7 +204,7 @@ public class UIManager : MonoBehaviour
     public void OnClickAtras()
     {
         // Miramos si el personaje seleccionado no es nulo.
-        if (selectedCharacter != null && selectedCharacter.characterMoved == true && selectedCharacter.isMoving == false && !selectedCharacter.characterAttacked)
+        if (selectedCharacter != null && selectedCharacter.characterMoved && !selectedCharacter.isActing && !selectedCharacter.characterAttacked)
         {
             // Hacemos que el personaje seleccionado se mueva hacia atras con el metodo que se encuentra en CharacterEntity.
             selectedCharacter.GetComponent<CharacterMovement>().MoverPosicionAnterior();
@@ -214,7 +216,7 @@ public class UIManager : MonoBehaviour
     public void OnClickAceptar()
     {
         // Miramos si el personaje seleccionado no es nulo.
-        if (selectedCharacter != null)
+        if (selectedCharacter != null && !selectedCharacter.isActing)
         {
             selectedCharacter.estadoActual = CharacterEntity.UnidadEstado.Finalizado;
             TurnManager.instance.TerminarTurno(selectedCharacter);
@@ -228,11 +230,14 @@ public class UIManager : MonoBehaviour
 
     public void OnClickAtacar()
     {
-        selectedCharacterMovement.character.estadoActual = CharacterEntity.UnidadEstado.Apuntando;
-        selectedCharacterMovement.movementOverlay.ClearAllTiles();
-        //HideActionMenu();
-        attackButton.gameObject.SetActive(false);
-        ShowAttackMenu();
+        if (!selectedCharacter.isActing)
+        {
+            selectedCharacterMovement.character.estadoActual = CharacterEntity.UnidadEstado.Apuntando;
+            selectedCharacterMovement.movementOverlay.ClearAllTiles();
+            //HideActionMenu();
+            attackButton.gameObject.SetActive(false);
+            ShowAttackMenu();
+        }
     }
 
     // Metodo para el boton de Atacar, ahora no hace nada XD
@@ -270,11 +275,19 @@ public class UIManager : MonoBehaviour
             case ElementalType.Planta:
                 return new Color(0.4f, 0.9f, 0.4f); // Verde
             case ElementalType.Tierra:
-                return new Color(0.6f, 0.4f, 0.2f); // Ni idea
+                return new Color(0.6f, 0.4f, 0.2f); // Color caca
             case ElementalType.Electrico:
                 return Color.yellow; // Amarillo
             case ElementalType.Acero:
                 return Color.gray; // Gris
+            case ElementalType.Hielo:
+                return new Color(0.6f, 0.8f, 1.0f); // Azul claro
+            case ElementalType.Viento:
+                return new Color(0.4f, 1.0f, 0.8f); // Verde agua
+            case ElementalType.Sonico:
+                return new Color(1.0f, 0.95f, 0.7f); // Amarillento
+            case ElementalType.Mente:
+                return new Color(1.0f, 0.5f, 0.8f); // Rosado
             case ElementalType.Toxico:
                 return new Color(0.7f, 0.3f, 0.9f); // Morado
             default:
@@ -376,14 +389,11 @@ public class UIManager : MonoBehaviour
         attackRange.text = ataque.rango.ToString();
         attackDescription.text = ataque.descripcion;
 
-        // 4. Tipo Elemental
-        // El .ToString() convierte automáticamente tu Enum (ej. Fuego) en texto ("Fuego")
-
 
         // 5. Objetivos (Lo pasamos al español para que quede bien en la UI)
         if (ataque.objective == AttackData.Objective.Enemigos)
         {
-            
+            attackObjectives.text = "Enemigos";
         }
         else if (ataque.objective == AttackData.Objective.Aliados)
         {
@@ -393,16 +403,11 @@ public class UIManager : MonoBehaviour
         {
             attackObjectives.text = "Ambos"; // Por si en el futuro añades más opciones
         }
-
-        // 6. Categoría / Rango
-        // Como en tu AttackData no vi la variable "categoria", he usado este TextMeshPro 
-        // para mostrar el rango. Si decides crear una variable "categoria", cámbialo aquí.
-        
     }
 
     public void OnClickFirstAttack()
     {
-        if (firstAttack != null)
+        if (firstAttack != null && !selectedCharacter.isActing)
         {
             MostrarInfoAtaque(firstAttack); // Llamamos al metodo para que nos busque la info de este ataque
             CombatManager.instance.ataqueSeleccionado = firstAttack; // <-- ASIGNAMOS EL ATAQUE
@@ -412,7 +417,7 @@ public class UIManager : MonoBehaviour
 
     public void OnClickSecondAttack()
     {
-        if (secondAttack != null)
+        if (secondAttack != null && !selectedCharacter.isActing)
         {
             MostrarInfoAtaque(secondAttack); // Llamamos al metodo para que nos busque la info de este ataque
             CombatManager.instance.ataqueSeleccionado = secondAttack; // <-- ASIGNAMOS EL ATAQUE
@@ -422,7 +427,7 @@ public class UIManager : MonoBehaviour
 
     public void OnClickThirdAttack()
     {
-        if (thirdAttack != null)
+        if (thirdAttack != null && !selectedCharacter.isActing)
         {
             MostrarInfoAtaque(thirdAttack); // Llamamos al metodo para que nos busque la info de este ataque
             CombatManager.instance.ataqueSeleccionado = thirdAttack; // <-- ASIGNAMOS EL ATAQUE
@@ -432,16 +437,32 @@ public class UIManager : MonoBehaviour
 
     public void OnClickCancelar()
     {
-        selectedCharacter.estadoActual = CharacterEntity.UnidadEstado.EligiendoAccion;
-        HideAttackMenu();
+        if (!selectedCharacter.isActing)
+        {
+            selectedCharacter.estadoActual = CharacterEntity.UnidadEstado.EligiendoAccion;
+            HideAttackMenu();
+        }
     }
 
     public void HideAttackMenu()
     {
+        CombatManager.instance.ataqueSeleccionado = null; // Deseleccionamos el ataque
         // Desactivaremos el menu.
         attackMenu.SetActive(false);
         attackInfoPanel.SetActive(false);
         CombatManager.instance.attackOverlay.ClearAllTiles();
+
+        attackName.text = "-";
+        attackPower.text = "-";
+        attackStamina.text = "-";
+        attackAccurate.text = "-";
+        attackType.text = "-";
+        attackCritic.text = "-";
+        attackCategory.text = "-";
+        attackObjectives.text = "-";
+        attackRange.text = "-";
+        attackDescription.text = "-";
+        attackObjectives.text = "-";
 
         // Esto sirve para que al morir un enemigo, en las casillas de movimiento se actualice para que aparezca que ya es accesible
         if (selectedCharacterMovement != null)
@@ -489,5 +510,60 @@ public class UIManager : MonoBehaviour
         ConfigurarStatUI(statSpA, "SpA", selectedCharacter.stats.ataqueEspecial, selectedCharacter.statsBase.ataqueEspecial, selectedCharacter.turnosAtaqueEspecial, selectedCharacter.nivelAtaqueEspecial);
         ConfigurarStatUI(statSpD, "SpD", selectedCharacter.stats.defensaEspecial, selectedCharacter.statsBase.defensaEspecial, selectedCharacter.turnosDefensaEspecial, selectedCharacter.nivelDefensaEspecial);
         ConfigurarStatUI(statVelocity, "Velocidad", selectedCharacter.stats.velocidad, selectedCharacter.statsBase.velocidad, selectedCharacter.turnosVelocidad, selectedCharacter.nivelVelocidad);
+    }
+
+    public void PartidaFinalizada(bool esVictoria)
+    {
+        if (esVictoria)
+        {
+            textoMenu.text = "¡Has Ganado a Jugador 2!";
+        }
+        else
+        {
+            textoMenu.text = "¡Has Perdido contra Jugador 2!";
+        }
+        continueButton.SetActive(false);
+        surrenderButton.SetActive(false);
+        infoTerrainPanel.SetActive(false);
+        actionMenu.SetActive(false);
+        attackMenu.SetActive(false);
+        buttonsPanel.SetActive(false);
+        attackInfoPanel.SetActive(false);
+        finalizarPanel.SetActive(true);
+        Time.timeScale = 0.0f;
+    }
+
+    public void AbrirMenuRendirse()
+    {
+        textoMenu.text = "¿Te Rindes?";
+        finalizarPanel.SetActive(true);
+    }
+
+    public void QuitarMenuRendirse()
+    {
+        finalizarPanel.SetActive(false);
+    }
+
+    // Método para refrescar la UI estática si el personaje sufre una transformación en pleno turno
+    public void RefrescarFichaUI(CharacterEntity personaje)
+    {
+        // Solo recargamos si el personaje afectado es exactamente el que tenemos seleccionado
+        if (selectedCharacter != null && selectedCharacter == personaje)
+        {
+            // Refrescamos los iconos de la nueva identidad
+            elementalBadge.sprite = selectedCharacter.data.iconoTipo;
+            classBadge.sprite = selectedCharacter.data.iconoClase;
+            movilityBadge.sprite = selectedCharacter.data.iconoMovilidad;
+            characterFace.sprite = selectedCharacter.data.characterFace;
+
+            ActualizarBadgeEstado();
+
+            // Si el menú de ataques estaba abierto, hay que actualizar los botones
+            if (attackMenu.activeSelf)
+            {
+                // Simplemente llamamos de nuevo a Show para que recargue los botones.
+                ShowAttackMenu();
+            }
+        }
     }
 }

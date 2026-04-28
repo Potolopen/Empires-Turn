@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5393f5f16281d1c4c93faa6987935c6c, type: 3}
   m_Name: Attack1_DamageEffect
   m_EditorClassIdentifier: 
-  "da\xF1o": 3
+  vfxEffectPrefab: {fileID: 0}
+  vfxEffectDuration: 1.5
+  "da\xF1o": 30

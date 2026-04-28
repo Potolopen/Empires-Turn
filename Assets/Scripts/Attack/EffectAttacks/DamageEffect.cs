@@ -14,6 +14,19 @@ public class DamageEffect : AttackEffect
 
         float multiEfectividad = CombatManager.instance.CalcularEfectividad(attackType, objetivo.data.elementalType);
 
+        if (multiEfectividad == 2.0f)
+        {
+            AudioManager.instance.AtaqueSuperEficaz();
+        }
+        else if (multiEfectividad == 1.0f)
+        {
+            AudioManager.instance.AtaqueNormal();
+        }
+        else
+        {
+            AudioManager.instance.AtaquePocoEficaz();
+        }
+
         // Se podria hacer con un if al uso, pero esto también es una buena forma de hacerlo
 
         /*if (CombatManager.instance.ataqueActualEsCritico)
@@ -41,17 +54,25 @@ public class DamageEffect : AttackEffect
                 break;
         }
 
+        Debug.Log("Ataque más daño del ataque: " + dañoBruto + " Defensa del rival: " + defensaObjetivo);
+
         // 1. Aplicamos el Crítico primero (Ayuda a superar la defensa)
         float dañoConCritico = dañoBruto * multiCritico;
 
+        Debug.Log("Aplicamos el critico: " + dañoBruto * multiCritico);
+
         // 2. Restamos la defensa y nos aseguramos de que al menos pase 1 de daño
         float dañoTrasDefensa = Mathf.Max(1, dañoConCritico - defensaObjetivo);
+
+        Debug.Log("Le restamos a la defensa: " + (dañoConCritico - defensaObjetivo));
 
         // Cálculo final de mitigación
         // 4. Resultado final
         int dañoFinal = Mathf.CeilToInt(dañoTrasDefensa * multiEfectividad);
 
+        Debug.Log("Este es el daño final: " + dañoTrasDefensa * multiEfectividad);
+
         // Aplicamos el resultado al objetivo
-        objetivo.RecibirDaño(dañoFinal);
+        objetivo.RecibirDaño(dañoFinal, atacante);
     }
 }

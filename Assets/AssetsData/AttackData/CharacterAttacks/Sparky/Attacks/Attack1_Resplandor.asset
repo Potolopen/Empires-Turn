@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76a0d655c364e7f4ca1986671cbe91e5, type: 3}
+  m_Name: Attack1_Resplandor
+  m_EditorClassIdentifier: 
+  nombre: Resplandor
+  rango: 6
+  accuracy: 90
+  objective: 0
+  criticRate: 15
+  costeStamina: 25
+  elementalType: 4
+  categoria: 1
+  efectos:
+  - {fileID: 11400000, guid: 4794dc9c343791d42901b2c41a267381, type: 2}
+  - {fileID: 11400000, guid: 5f79eca54bacea845bc96737e235a9d0, type: 2}
+  descripcion: Lanza un potente rayo al enemigo pudiendo causarle en un 35% quemaduras
+    al rival.
+  vfxPrefab: {fileID: 0}
+  duracionAnimacion: 1.5
+  tiempoParaAplicarDano: 0.5

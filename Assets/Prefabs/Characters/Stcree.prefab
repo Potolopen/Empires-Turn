@@ -188,13 +188,15 @@ MonoBehaviour:
   currentCell: {x: 0, y: 0, z: 0}
   equipo: 0
   cambioColorAlActuar: {fileID: 0}
-  isMoving: 0
+  isActing: 0
   characterMoved: 0
   characterAttacked: 0
   characterAct: 0
+  killsEstaPartida: 0
   turnosEstadoRestantes: 0
   estadoActual: 0
   statusType: 0
+  vfxEstadoActual: {fileID: 0}
 --- !u!212 &3268714195712097945
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -239,7 +241,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 100
-  m_Sprite: {fileID: 7482667652216324306, guid: 20be90eb7cac4a4469a24d56fd8aced5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b7b34b8694198c649b0e150c22c7e364, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

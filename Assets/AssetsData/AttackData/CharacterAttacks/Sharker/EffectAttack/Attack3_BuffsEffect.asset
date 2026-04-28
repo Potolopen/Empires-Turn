@@ -12,12 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 495e6465a43d3954c83f19eefec15cc0, type: 3}
   m_Name: Attack3_BuffsEffect
   m_EditorClassIdentifier: 
+  vfxEffectPrefab: {fileID: 0}
+  vfxEffectDuration: 1.5
   modificaciones:
   - statAfectada: 0
-    cantidadModificacion: 2
-    duracionTurnos: 3
+    cantidadModificacion: 1
+    duracionTurnos: 2
+    esParaEnemigo: 0
     probabilidad: 100
   - statAfectada: 1
-    cantidadModificacion: 2
-    duracionTurnos: 2
+    cantidadModificacion: 1
+    duracionTurnos: 1
+    esParaEnemigo: 0
     probabilidad: 100

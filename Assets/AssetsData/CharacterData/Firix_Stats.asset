@@ -12,16 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e4f969954ee11e40b981c9fc8eb747e, type: 3}
   m_Name: Firix_Stats
   m_EditorClassIdentifier: 
+  idDataBase: 2
   nombre: Firix
   stats:
-    vidaMaxima: 95
-    vidaActual: 95
+    vidaMaxima: 145
+    vidaActual: 145
     staminaMaxima: 105
     staminaActual: 105
-    ataqueFisico: 68
-    defensaFisica: 56
-    ataqueEspecial: 125
-    defensaEspecial: 78
+    ataqueFisico: 40
+    defensaFisica: 35
+    ataqueEspecial: 80
+    defensaEspecial: 50
     velocidad: 95
   ability:
     nombre: 
@@ -34,5 +35,5 @@ MonoBehaviour:
   classType: 2
   iconoTipo: {fileID: 21300000, guid: 004cc098aa7648740a2ad26bdaef4e88, type: 3}
   iconoClase: {fileID: 21300000, guid: 15e944cc452e0e14da48970eac7e1839, type: 3}
-  iconoMovilidad: {fileID: 21300000, guid: 2ed93ddc95ec0a9419b39b8d40fa58d4, type: 3}
-  characterFace: {fileID: 21300000, guid: e0202afd87d576b41aa7e027e87541f5, type: 3}
+  iconoMovilidad: {fileID: 21300000, guid: 9929112a180bee940a9851e1fb75ea71, type: 3}
+  characterFace: {fileID: 21300000, guid: 066c052a1bb5f0b49ab85d41ac1c3bab, type: 3}

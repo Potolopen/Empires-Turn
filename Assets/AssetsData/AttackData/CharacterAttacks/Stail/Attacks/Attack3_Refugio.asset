@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76a0d655c364e7f4ca1986671cbe91e5, type: 3}
+  m_Name: Attack3_Refugio
+  m_EditorClassIdentifier: 
+  nombre: Refugio
+  rango: 0
+  accuracy: 100
+  objective: 1
+  criticRate: 0
+  costeStamina: 55
+  elementalType: 5
+  categoria: 2
+  efectos:
+  - {fileID: 11400000, guid: e573f3fc4e9ba18408fda9b2f4a54587, type: 2}
+  - {fileID: 11400000, guid: 6c5ada540b7b72e46b3608026b1d4690, type: 2}
+  descripcion: "Se mete dentro de su caparaz\xF3n aumentandose en un 100% la Defensa
+    F\xEDsica [2T] y en con un 50% la Defensa Especial [1T]. Adem\xE1s de recuperar
+    120 puntos de Vida."
+  vfxPrefab: {fileID: 0}
+  duracionAnimacion: 1.5
+  tiempoParaAplicarDano: 0.5

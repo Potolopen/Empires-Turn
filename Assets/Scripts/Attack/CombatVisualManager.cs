@@ -5,6 +5,8 @@ public class CombatVisualManager : MonoBehaviour
 {
     public static CombatVisualManager instance;
 
+    [Header("Textos Flotantes")]
+    public GameObject floatingTextPrefab; // Arrastra aquí tu prefab desde el Inspector
     void Awake()
     {
         if (instance == null) instance = this;
@@ -14,7 +16,10 @@ public class CombatVisualManager : MonoBehaviour
     // Los diferentes efectos de estado llamarán a esta función.
     public void ProcesarEstadoVisual(CharacterEntity objetivo, GameObject animPrefab, float duracion)
     {
-        if(animPrefab != null)
+        // Si el objetivo ya fue destruido, no instanciamos nada
+        if (objetivo == null) return;
+
+        if (animPrefab != null)
         {
             GameObject vfx = Instantiate(animPrefab, objetivo.transform.position, Quaternion.identity);
             Destroy(vfx, duracion);
@@ -30,7 +35,7 @@ public class CombatVisualManager : MonoBehaviour
     private IEnumerator RutinaVisualAtaque(CharacterEntity atacante, CharacterEntity objetivo, AttackData ataque)
     {
         // 1. Mostrar la animación sobre el enemigo
-        if (ataque.vfxPrefab != null)
+        if (ataque.vfxPrefab != null && objetivo != null)
         {
             GameObject vfx = Instantiate(ataque.vfxPrefab, objetivo.transform.position, Quaternion.identity);
 
@@ -43,7 +48,11 @@ public class CombatVisualManager : MonoBehaviour
 
         // 3. AHORA SÍ, aplicamos el daño real. Como el 'ataqueSeleccionado' 
         // no se ha vuelto null en el CombatManager, esto funcionará perfecto.
-        ataque.Ejecutar(atacante, objetivo);
+        // Validamos que ninguno haya muerto/sido destruido antes de aplicar el daño.
+        if (atacante != null && objetivo != null)
+        {
+            ataque.Ejecutar(atacante, objetivo);
+        }
 
         // 4. Esperar el resto del tiempo de la animación antes de dar por terminado todo
         float tiempoRestante = ataque.duracionAnimacion - ataque.tiempoParaAplicarDano;
@@ -55,5 +64,31 @@ public class CombatVisualManager : MonoBehaviour
         // 5. La animación ha terminado. Avisamos al CombatManager para que limpie la interfaz, 
         // quite la estamina y ponga el ataqueSeleccionado a null.
         CombatManager.instance.FinalizarLimpiezaDeAtaque(atacante);
+    }
+
+    // Instancia el texto flotante
+    public void MostrarTextoFlotante(Vector3 posicion, string texto, Color color)
+    {
+        if (floatingTextPrefab != null)
+        {
+            // 1. Generamos valores aleatorios pequeños para X e Y
+            float randomX = Random.Range(-0.5f, 0.5f); // Un poco a la izquierda o derecha
+            float randomY = Random.Range(0.6f, 1.2f);  // Siempre hacia arriba, pero con variación
+
+            // 2. Sumamos esa variación a la posición original del personaje
+            Vector3 offsetPos = posicion + new Vector3(randomX, randomY, 0);
+
+            GameObject go = Instantiate(floatingTextPrefab, offsetPos, Quaternion.identity);
+            FloatingText ft = go.GetComponent<FloatingText>();
+
+            if (ft != null)
+            {
+                ft.Setup(texto, color);
+            }
+        }
+        else
+        {
+            Debug.LogWarning("Falta asignar el prefab de Floating Text en CombatVisualManager");
+        }
     }
 }

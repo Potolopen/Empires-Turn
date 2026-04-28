@@ -17,14 +17,13 @@ MonoBehaviour:
   accuracy: 100
   objective: 1
   criticRate: 0
-  costeStamina: 50
+  costeStamina: 55
   elementalType: 1
   categoria: 2
   efectos:
   - {fileID: 11400000, guid: f40b7a6ff0a13224897d224209e557ba, type: 2}
   - {fileID: 11400000, guid: 3158ceb7a6ddd6a40a73fd820e0fd24b, type: 2}
-  descripcion: "Cura 60 puntos de vida y 20 puntos de estamina a los aliados. Si
-    se utiliza en uno mismo solo recuperar\xE1 vitalidad."
+  descripcion: Cura 75 puntos de Vida y 35 puntos de Estamina.
   vfxPrefab: {fileID: 0}
   duracionAnimacion: 1.5
   tiempoParaAplicarDano: 0.5
