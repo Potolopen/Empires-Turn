@@ -25,6 +25,7 @@ public class SlownessEffect : AttackEffect
 
             if (CombatVisualManager.instance != null && vfxEffectPrefab != null)
             {
+                AudioManager.instance.sonidoSegunEstado(objetivo.statusType);
                 CombatVisualManager.instance.ProcesarEstadoVisual(objetivo, vfxEffectPrefab, vfxEffectDuration);
             }
         }

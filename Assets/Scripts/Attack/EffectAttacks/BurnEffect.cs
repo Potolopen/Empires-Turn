@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.TextCore.Text;
 
 [CreateAssetMenu(menuName = "AttackEffect/Burn")]
 public class BurnEffect : AttackEffect
@@ -23,6 +24,7 @@ public class BurnEffect : AttackEffect
 
             if(CombatVisualManager.instance != null && vfxEffectPrefab != null) 
             {
+                AudioManager.instance.sonidoSegunEstado(objetivo.statusType);
                 CombatVisualManager.instance.ProcesarEstadoVisual(objetivo, vfxEffectPrefab, vfxEffectDuration);
             }
         }

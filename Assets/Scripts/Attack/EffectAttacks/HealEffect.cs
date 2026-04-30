@@ -7,7 +7,7 @@ public class HealEffect : AttackEffect
 
     public override void Aplicar(CharacterEntity atacante, CharacterEntity objetivo)
     {
-        if (objetivo.statusType == StatusType.Envenenado)
+        if (objetivo.statusType == StatusType.Envenenamiento)
         {
             heal = Mathf.Max(1, Mathf.CeilToInt(heal * 0.5f));
         }

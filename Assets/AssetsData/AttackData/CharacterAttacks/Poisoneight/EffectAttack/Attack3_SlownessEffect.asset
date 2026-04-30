@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a543e33dfc38384d80b233cc5d93579, type: 3}
   m_Name: Attack3_SlownessEffect
   m_EditorClassIdentifier: 
-  vfxEffectPrefab: {fileID: 0}
+  vfxEffectPrefab: {fileID: 397085091944790945, guid: 884b58e6c0d4c274f8af7e4ca84e87fa, type: 3}
   vfxEffectDuration: 1.5
   accuracy: 20

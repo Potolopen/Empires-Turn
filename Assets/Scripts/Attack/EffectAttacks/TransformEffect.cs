@@ -10,6 +10,7 @@ public class TransformEffect : AttackEffect
         if (objetivo == atacante)
         {
             Debug.Log("Selecciona a otro pringao");
+            return;
         }
 
         // Llamamos a la función que gestiona toda la lógica en el personaje

@@ -1,5 +1,6 @@
 ﻿using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.TextCore.Text;
 using static AttackData;
 
 // Enum para saber qué estadística estamos modificando
@@ -206,6 +207,7 @@ public class CharacterEntity : MonoBehaviour
 
         RecalcularEstadisticas();
         Debug.Log(data.nombre + " ha limpiado sus estados.");
+        AudioManager.instance.sonidoSegunEstado(statusType);
     }
 
     public void RecuperarStamina(CharacterEntity character)
@@ -228,6 +230,7 @@ public class CharacterEntity : MonoBehaviour
         stats.vidaActual += curacion;
         stats.vidaActual = Mathf.Min(stats.vidaMaxima, stats.vidaActual);
         Debug.Log(this.data.nombre + " ha recuperado " + curacion + " puntos de vida.");
+        AudioManager.instance.Curacion();
 
         // NUEVO: Texto flotante verde para curación
         if (CombatVisualManager.instance != null)

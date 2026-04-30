@@ -111,11 +111,13 @@ public class CombatManager : MonoBehaviour
             case StatusType.Quemadura:
                 valorTotal = Mathf.CeilToInt(character.stats.vidaMaxima * 0.2f);
                 Debug.Log(character.data.nombre + " se quema!!");
+                AudioManager.instance.sonidoSegunEstado(character.statusType);
                 break;
             case StatusType.Frio:
                 valorTotal = Mathf.CeilToInt(character.stats.vidaMaxima * 0.2f);
+                AudioManager.instance.sonidoSegunEstado(character.statusType);
                 break;
-            case StatusType.Envenenado:
+            case StatusType.Envenenamiento:
                 if (character.turnosEstadoRestantes == 3)
                 {
                     valorTotal = Mathf.CeilToInt(character.stats.vidaMaxima * 0.2f);
@@ -128,9 +130,10 @@ public class CombatManager : MonoBehaviour
                 {
                     valorTotal = Mathf.CeilToInt(character.stats.vidaMaxima * 0.4f);
                 }
+                AudioManager.instance.sonidoSegunEstado(character.statusType);
                 break;
             case StatusType.Lentitud:
-
+                AudioManager.instance.sonidoSegunEstado(character.statusType);
                 haceDaño = false;
                 break;
         }
@@ -315,6 +318,7 @@ public class CombatManager : MonoBehaviour
                 // mostrará la animación y luego ejecutará el daño y llamará a FinalizarLimpiezaDeAtaque.
                 if (CombatVisualManager.instance != null)
                 {
+                    AudioManager.instance.sonidoAtaqueSegunTipo(ataqueSeleccionado.elementalType);
                     CombatVisualManager.instance.ProcesarAtaqueVisual(atacante, enemigo, ataqueSeleccionado);
                 }  
             }
@@ -327,6 +331,7 @@ public class CombatManager : MonoBehaviour
                 // mostrará la animación y luego ejecutará el daño y llamará a FinalizarLimpiezaDeAtaque.
                 if (CombatVisualManager.instance != null)
                 {
+                    AudioManager.instance.sonidoAtaqueSegunTipo(ataqueSeleccionado.elementalType);
                     CombatVisualManager.instance.ProcesarAtaqueVisual(atacante, enemigo, ataqueSeleccionado);
                 }
 
@@ -335,8 +340,10 @@ public class CombatManager : MonoBehaviour
             else
             {
                 Debug.Log("<color=red>¡El ataque ha fallado!</color>");
-                // Si falla, no hay animación que esperar, así que limpiamos inmediatamente.
+
+                AudioManager.instance.FallarAtaque();
                 CombatVisualManager.instance.MostrarTextoFlotante(atacante.transform.position, "¡¡Ha fallado!!", Color.cyan);
+                // Si falla, no hay animación que esperar, así que limpiamos inmediatamente.
                 FinalizarLimpiezaDeAtaque(atacante);
             }
         }

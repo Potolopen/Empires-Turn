@@ -17,7 +17,7 @@ MonoBehaviour:
   accuracy: 100
   objective: 1
   criticRate: 0
-  costeStamina: 40
+  costeStamina: 45
   elementalType: 8
   categoria: 2
   efectos:

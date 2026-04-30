@@ -19,10 +19,10 @@ MonoBehaviour:
     vidaActual: 135
     staminaMaxima: 100
     staminaActual: 100
-    ataqueFisico: 75
-    defensaFisica: 40
-    ataqueEspecial: 50
-    defensaEspecial: 45
+    ataqueFisico: 85
+    defensaFisica: 55
+    ataqueEspecial: 65
+    defensaEspecial: 35
     velocidad: 85
   ability:
     nombre: 

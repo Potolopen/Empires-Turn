@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2887aa9e6de60245b2c1112149e5ec8, type: 3}
   m_Name: Attack2_PoisonEffect
   m_EditorClassIdentifier: 
-  vfxEffectPrefab: {fileID: 0}
+  vfxEffectPrefab: {fileID: 1550894771954467419, guid: 1128dd293288a064a9e54f13c5d6b5cc, type: 3}
   vfxEffectDuration: 1.5
   accuracy: 100

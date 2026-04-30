@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e9829958c2a8d642bcf28ce76a46861, type: 3}
   m_Name: Attack3_BurnEffect
   m_EditorClassIdentifier: 
-  vfxEffectPrefab: {fileID: 0}
+  vfxEffectPrefab: {fileID: 1398415242698238014, guid: 698b1d603b9efa54d83007b2fa03a9c7, type: 3}
   vfxEffectDuration: 1.5
   accuracy: 20

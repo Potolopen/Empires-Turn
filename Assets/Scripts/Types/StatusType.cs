@@ -1,1 +1,1 @@
-public enum StatusType { Neutro, Quemadura, Frio, Lentitud, Envenenado }
+public enum StatusType { Neutro, Quemadura, Frio, Lentitud, Envenenamiento }

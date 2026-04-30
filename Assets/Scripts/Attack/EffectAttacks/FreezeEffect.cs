@@ -16,7 +16,17 @@ public class FreezeEffect : AttackEffect
             objetivo.statusType = StatusType.Frio;
             objetivo.turnosEstadoRestantes = 3;
             objetivo.RecalcularEstadisticas();
+
+            objetivo.vfxEstadoActual = this.vfxEffectPrefab;
+
             Debug.Log(objetivo.data.nombre + "sufre frio a manos de " + atacante.data.nombre);
+
+
+            if (CombatVisualManager.instance != null && vfxEffectPrefab != null)
+            {
+                AudioManager.instance.sonidoSegunEstado(objetivo.statusType);
+                CombatVisualManager.instance.ProcesarEstadoVisual(objetivo, vfxEffectPrefab, vfxEffectDuration);
+            }
         }
     }
 }

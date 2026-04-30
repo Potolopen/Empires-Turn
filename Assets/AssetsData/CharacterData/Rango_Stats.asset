@@ -34,6 +34,6 @@ MonoBehaviour:
   elementalType: 11
   classType: 2
   iconoTipo: {fileID: 21300000, guid: b6c64e6a4597aa0468398e581c067446, type: 3}
-  iconoClase: {fileID: 21300000, guid: 7f2e36dbbc8baea438871cd5e353a36d, type: 3}
+  iconoClase: {fileID: 21300000, guid: 15e944cc452e0e14da48970eac7e1839, type: 3}
   iconoMovilidad: {fileID: 21300000, guid: 2ed93ddc95ec0a9419b39b8d40fa58d4, type: 3}
   characterFace: {fileID: 21300000, guid: 18b9746983daa4348947ac8bd372805d, type: 3}

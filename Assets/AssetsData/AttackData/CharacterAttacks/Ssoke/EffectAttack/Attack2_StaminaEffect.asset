@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vfxEffectPrefab: {fileID: 0}
   vfxEffectDuration: 1.5
-  stamina: 60
+  stamina: 25
   recuperaStamina: 1
+  aElMismo: 0
