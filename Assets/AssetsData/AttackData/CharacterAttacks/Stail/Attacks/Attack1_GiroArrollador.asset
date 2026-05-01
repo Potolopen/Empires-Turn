@@ -24,7 +24,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 13324b25b3e1a354bbc19778872d37fb, type: 2}
   - {fileID: 11400000, guid: cfb6e2d174de7ec4ba363525419c2c49, type: 2}
   descripcion: "Da vueltas con su caparaz\xF3n como si fuese una rueda, capaz de
-    moverse hac\xEDa el objetivo e impactar contra ell."
-  vfxPrefab: {fileID: 0}
-  duracionAnimacion: 1.5
-  tiempoParaAplicarDano: 0.5
+    moverse hac\xEDa el objetivo e impactar contra el."
+  vfxPrefab: {fileID: 6325687961796640012, guid: 1b57afa7e75281340a550c486b98c614, type: 3}
+  duracionAnimacion: 0.3
+  tiempoParaAplicarDano: 0.3

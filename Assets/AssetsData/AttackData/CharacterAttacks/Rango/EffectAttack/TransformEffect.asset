@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 013cbd827646cb04aa6d07582c2bc3e3, type: 3}
   m_Name: TransformEffect
   m_EditorClassIdentifier: 
-  vfxEffectPrefab: {fileID: 0}
-  vfxEffectDuration: 1.5
+  vfxEffectPrefab: {fileID: 1809466894904979416, guid: 2b35d8cd23b772a409e2cdc20a0307ba, type: 3}
+  vfxEffectDuration: 1

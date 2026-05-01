@@ -25,6 +25,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 11f893d39fd27a04887f99d2987c4e94, type: 2}
   descripcion: "Crea arenas movedizas en la posici\xF3n del enemigo, haciendo que
     este pierda 45 puntos en Estamina y disminuyendole la Velocidad [2T]."
-  vfxPrefab: {fileID: 0}
-  duracionAnimacion: 1.5
+  vfxPrefab: {fileID: 143205111377103682, guid: 0422a7147c9f36247842991253d48f71, type: 3}
+  duracionAnimacion: 0.5
   tiempoParaAplicarDano: 0.5

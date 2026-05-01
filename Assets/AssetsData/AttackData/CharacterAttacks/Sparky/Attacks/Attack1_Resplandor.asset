@@ -25,6 +25,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5f79eca54bacea845bc96737e235a9d0, type: 2}
   descripcion: Lanza un potente rayo al enemigo pudiendo causarle en un 35% quemaduras
     al rival.
-  vfxPrefab: {fileID: 0}
-  duracionAnimacion: 1.5
+  vfxPrefab: {fileID: 250558852422085974, guid: 797918d5b593e4f42b133a3d96a9863e, type: 3}
+  duracionAnimacion: 0.5
   tiempoParaAplicarDano: 0.5

@@ -26,6 +26,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 615aa5b7bb8f9b948882b02fc4fe44b8, type: 2}
   descripcion: "Ataque veloz que aumenta la Velocidad del atacante [2T]. Adem\xE1s
     de hacer perder 30 puntos de Estamina al rival."
-  vfxPrefab: {fileID: 0}
-  duracionAnimacion: 1.5
+  vfxPrefab: {fileID: 8772786592120028598, guid: f6cc96b82116c224d9442a5995604ef6, type: 3}
+  duracionAnimacion: 0.5
   tiempoParaAplicarDano: 0.5

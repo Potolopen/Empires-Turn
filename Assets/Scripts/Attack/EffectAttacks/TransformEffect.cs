@@ -13,6 +13,11 @@ public class TransformEffect : AttackEffect
             return;
         }
 
+        if (CombatVisualManager.instance != null && vfxEffectPrefab != null)
+        {
+            CombatVisualManager.instance.ProcesarEstadoVisual(atacante, vfxEffectPrefab, vfxEffectDuration);
+        }
+
         // Llamamos a la función que gestiona toda la lógica en el personaje
         atacante.TransformarEn(objetivo);
 

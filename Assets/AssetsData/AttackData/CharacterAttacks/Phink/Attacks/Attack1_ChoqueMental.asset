@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Attack1_ChoqueMental
   m_EditorClassIdentifier: 
   nombre: Choque Mental
-  rango: 7
+  rango: 6
   accuracy: 75
   objective: 0
   criticRate: 15
@@ -25,6 +25,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3ae5a6b5bde0bd64287558e1efc79476, type: 2}
   descripcion: Crea un colapso menta al enemigo haciendo que pierda 15 puntos de
     Estamina.
-  vfxPrefab: {fileID: 0}
-  duracionAnimacion: 1.5
+  vfxPrefab: {fileID: 150454901672928114, guid: dbd3a86eeb8295943a06bd4520407728, type: 3}
+  duracionAnimacion: 0.5
   tiempoParaAplicarDano: 0.5

@@ -24,6 +24,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 083cd3fcdea195d46a51c827007df7ac, type: 2}
   descripcion: Produce dolores de cabeza al enemigo haciendo que todas sus estadisticas
     disminuyan [2T].
-  vfxPrefab: {fileID: 0}
-  duracionAnimacion: 1.5
+  vfxPrefab: {fileID: 150454901672928114, guid: dbd3a86eeb8295943a06bd4520407728, type: 3}
+  duracionAnimacion: 0.5
   tiempoParaAplicarDano: 0.5

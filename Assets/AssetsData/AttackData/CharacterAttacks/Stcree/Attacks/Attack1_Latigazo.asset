@@ -25,6 +25,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: cccb16357eacc9441acc6ce4f93ee8aa, type: 2}
   descripcion: Pega un latigazo con sus raices desde el suelo, tiene un 20% de reducir
     la Velocidad [1T] y un 40% de reducir la Defensa Fisica [2T].
-  vfxPrefab: {fileID: 0}
-  duracionAnimacion: 1.5
-  tiempoParaAplicarDano: 0.5
+  vfxPrefab: {fileID: 4753925511550712430, guid: de74317a1b0e37d4891ad3f6a8bf1c66, type: 3}
+  duracionAnimacion: 0.5
+  tiempoParaAplicarDano: 0.3

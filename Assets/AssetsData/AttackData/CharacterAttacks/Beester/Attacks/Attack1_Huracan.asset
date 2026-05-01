@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Attack1_Huracan
   m_EditorClassIdentifier: 
   nombre: "Hurac\xE1n"
-  rango: 7
+  rango: 6
   accuracy: 85
   objective: 0
   criticRate: 15
@@ -25,6 +25,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0479d0d4008a16c45ad7d87394a7b033, type: 2}
   descripcion: "Ataca ferozmente con un hurac\xE1n causandole Frio al enemigo en
     un 100%."
-  vfxPrefab: {fileID: 0}
-  duracionAnimacion: 1.5
+  vfxPrefab: {fileID: 8772786592120028598, guid: f6cc96b82116c224d9442a5995604ef6, type: 3}
+  duracionAnimacion: 0.5
   tiempoParaAplicarDano: 0.5

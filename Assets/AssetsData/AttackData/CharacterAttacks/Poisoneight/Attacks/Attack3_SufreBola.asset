@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Attack3_SufreBola
   m_EditorClassIdentifier: 
   nombre: Sufre Bola
-  rango: 7
+  rango: 6
   accuracy: 75
   objective: 0
   criticRate: 15
@@ -28,6 +28,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c4341c1e0751f2e46bd0e9108d5ceb39, type: 2}
   descripcion: Ataca con una bola capaz de producir todos los estados, cada estado
     tiene una probabilidad del 20%.
-  vfxPrefab: {fileID: 0}
-  duracionAnimacion: 1.5
+  vfxPrefab: {fileID: 6517419389567420558, guid: 0aa1128a76d397b41b7269068befca97, type: 3}
+  duracionAnimacion: 0.5
   tiempoParaAplicarDano: 0.5

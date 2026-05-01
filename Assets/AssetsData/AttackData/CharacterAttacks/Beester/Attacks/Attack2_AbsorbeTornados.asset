@@ -28,6 +28,6 @@ MonoBehaviour:
     Ataque Fisico [2T] y quit\xE1ndole 45 puntos de Estamina. A su vez el atacante
     le aumentar\xE1 la Velocidad [3T], el Ataque Especial [2T] y recuperar\xE1 20
     puntos de Estamina."
-  vfxPrefab: {fileID: 0}
-  duracionAnimacion: 1.5
+  vfxPrefab: {fileID: 8772786592120028598, guid: f6cc96b82116c224d9442a5995604ef6, type: 3}
+  duracionAnimacion: 0.5
   tiempoParaAplicarDano: 0.5

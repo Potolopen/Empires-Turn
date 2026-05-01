@@ -24,6 +24,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f40b7a6ff0a13224897d224209e557ba, type: 2}
   - {fileID: 11400000, guid: 3158ceb7a6ddd6a40a73fd820e0fd24b, type: 2}
   descripcion: Cura 75 puntos de Vida y 35 puntos de Estamina.
-  vfxPrefab: {fileID: 0}
+  vfxPrefab: {fileID: 1184933498618459198, guid: f1f9223abb759a545a8249b9fbf5f8d7, type: 3}
   duracionAnimacion: 1.5
   tiempoParaAplicarDano: 0.5

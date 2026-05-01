@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Attack1_Jet
   m_EditorClassIdentifier: 
   nombre: Jet
-  rango: 5
+  rango: 4
   accuracy: 100
   objective: 0
   criticRate: 15

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Attack2_TintaVenenosa
   m_EditorClassIdentifier: 
   nombre: Tinta Venenosa
-  rango: 6
+  rango: 7
   accuracy: 65
   objective: 0
   criticRate: 0
@@ -25,6 +25,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b06282abcf18a8f4a99731e44eaf8d86, type: 2}
   descripcion: "Lanza tinta venenosa al enemigo capaz de producir Envenenamiento
     en un 100%, adem\xE1s de disminuirle la Velocidad [3T]."
-  vfxPrefab: {fileID: 0}
-  duracionAnimacion: 1.5
+  vfxPrefab: {fileID: 3149994864773593769, guid: 4eb60dc04e2c4c44ebfc128511540736, type: 3}
+  duracionAnimacion: 0.5
   tiempoParaAplicarDano: 0.5

@@ -1,0 +1,2205 @@
+fileFormatVersion: 2
+guid: abee30adf2b07584d97291e6bf621880
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3571655571015063874
+    second: PRAS- Fire_0
+  - first:
+      213: -2406638238284454829
+    second: PRAS- Fire_1
+  - first:
+      213: -1891575871095313382
+    second: PRAS- Fire_2
+  - first:
+      213: 2371144421250486340
+    second: PRAS- Fire_3
+  - first:
+      213: -5015702624398000621
+    second: PRAS- Fire_4
+  - first:
+      213: 6538886458055527023
+    second: PRAS- Fire_5
+  - first:
+      213: -6983711517535626468
+    second: PRAS- Fire_6
+  - first:
+      213: -1459821630331616564
+    second: PRAS- Fire_7
+  - first:
+      213: 247464460583352770
+    second: PRAS- Fire_8
+  - first:
+      213: -2823316808031222065
+    second: PRAS- Fire_9
+  - first:
+      213: -7582836394745635737
+    second: PRAS- Fire_10
+  - first:
+      213: -2215728711053464443
+    second: PRAS- Fire_11
+  - first:
+      213: -4061822420185168596
+    second: PRAS- Fire_12
+  - first:
+      213: 5034099265415576687
+    second: PRAS- Fire_13
+  - first:
+      213: 7431192972881274574
+    second: PRAS- Fire_14
+  - first:
+      213: 4655589997351095036
+    second: PRAS- Fire_15
+  - first:
+      213: -1315390729237883594
+    second: PRAS- Fire_16
+  - first:
+      213: 2976359477306172620
+    second: PRAS- Fire_17
+  - first:
+      213: 7564466332199838582
+    second: PRAS- Fire_18
+  - first:
+      213: -4937215000593593240
+    second: PRAS- Fire_19
+  - first:
+      213: -3384780141256215567
+    second: PRAS- Fire_20
+  - first:
+      213: -3323876686183300960
+    second: PRAS- Fire_21
+  - first:
+      213: -6368775225692375094
+    second: PRAS- Fire_22
+  - first:
+      213: -7826640873182304737
+    second: PRAS- Fire_23
+  - first:
+      213: -3842010767028328858
+    second: PRAS- Fire_24
+  - first:
+      213: 2719089242206127356
+    second: PRAS- Fire_25
+  - first:
+      213: -3094488365742996823
+    second: PRAS- Fire_26
+  - first:
+      213: 1758460495587932311
+    second: PRAS- Fire_27
+  - first:
+      213: -7649597961671463332
+    second: PRAS- Fire_28
+  - first:
+      213: 2988483282288311927
+    second: PRAS- Fire_29
+  - first:
+      213: -4932568010270715573
+    second: PRAS- Fire_30
+  - first:
+      213: 1601200456361760039
+    second: PRAS- Fire_31
+  - first:
+      213: -3075816788552017113
+    second: PRAS- Fire_32
+  - first:
+      213: 3370747837495055630
+    second: PRAS- Fire_33
+  - first:
+      213: -5614043058942804428
+    second: PRAS- Fire_34
+  - first:
+      213: -8560292658566326469
+    second: PRAS- Fire_35
+  - first:
+      213: 570759120582417559
+    second: PRAS- Fire_36
+  - first:
+      213: 2930458858460223436
+    second: PRAS- Fire_37
+  - first:
+      213: -4191367553550376989
+    second: PRAS- Fire_38
+  - first:
+      213: 8560537515542424511
+    second: PRAS- Fire_39
+  - first:
+      213: -1304852351391609522
+    second: PRAS- Fire_40
+  - first:
+      213: -6660867347886019116
+    second: PRAS- Fire_41
+  - first:
+      213: -8058355017195862385
+    second: PRAS- Fire_42
+  - first:
+      213: 7529422264123225459
+    second: PRAS- Fire_43
+  - first:
+      213: 3739896012631375607
+    second: PRAS- Fire_44
+  - first:
+      213: 6833187197907387205
+    second: PRAS- Fire_45
+  - first:
+      213: -8162595968512443286
+    second: PRAS- Fire_46
+  - first:
+      213: -3228645010493134807
+    second: PRAS- Fire_47
+  - first:
+      213: -4877916058684908604
+    second: PRAS- Fire_48
+  - first:
+      213: 3518887535921583880
+    second: PRAS- Fire_49
+  - first:
+      213: -8795196527252420804
+    second: PRAS- Fire_50
+  - first:
+      213: -6636935561229344975
+    second: PRAS- Fire_51
+  - first:
+      213: -1064920416704288952
+    second: PRAS- Fire_52
+  - first:
+      213: 3461685314732220892
+    second: PRAS- Fire_53
+  - first:
+      213: -1804552990880497311
+    second: PRAS- Fire_54
+  - first:
+      213: 4406789240016868704
+    second: PRAS- Fire_55
+  - first:
+      213: -409701497527925115
+    second: PRAS- Fire_56
+  - first:
+      213: -5990944557766253664
+    second: PRAS- Fire_57
+  - first:
+      213: 4719642306211755973
+    second: PRAS- Fire_58
+  - first:
+      213: 4322506011402369732
+    second: PRAS- Fire_59
+  - first:
+      213: 2098409483158891037
+    second: PRAS- Fire_60
+  - first:
+      213: 5795591132645879141
+    second: PRAS- Fire_61
+  - first:
+      213: -3176067790292810532
+    second: PRAS- Fire_62
+  - first:
+      213: -7684593446835429132
+    second: PRAS- Fire_63
+  - first:
+      213: 4509794791374483925
+    second: PRAS- Fire_64
+  - first:
+      213: -6986896043713962137
+    second: PRAS- Fire_65
+  - first:
+      213: 2633524006840230608
+    second: PRAS- Fire_66
+  - first:
+      213: 2218391909784179421
+    second: PRAS- Fire_67
+  - first:
+      213: 7811227955410038675
+    second: PRAS- Fire_68
+  - first:
+      213: -2849584379891454663
+    second: PRAS- Fire_69
+  - first:
+      213: 1662245084109194441
+    second: PRAS- Fire_70
+  - first:
+      213: -2660686396896419852
+    second: PRAS- Fire_71
+  - first:
+      213: 3302682470521410559
+    second: PRAS- Fire_72
+  - first:
+      213: -365823102146490564
+    second: PRAS- Fire_73
+  - first:
+      213: -2614032967802013510
+    second: PRAS- Fire_74
+  - first:
+      213: -3332577024273523517
+    second: PRAS- Fire_75
+  - first:
+      213: -3492739251066910786
+    second: PRAS- Fire_76
+  - first:
+      213: -7003468552913447712
+    second: PRAS- Fire_77
+  - first:
+      213: -3257599402230413245
+    second: PRAS- Fire_78
+  - first:
+      213: 3762045806119995042
+    second: PRAS- Fire_79
+  - first:
+      213: 415613558562461936
+    second: PRAS- Fire_80
+  - first:
+      213: -4343164717687124473
+    second: PRAS- Fire_81
+  - first:
+      213: -7249990229498704896
+    second: PRAS- Fire_82
+  - first:
+      213: -2677661715293433956
+    second: PRAS- Fire_83
+  - first:
+      213: -481657077694341807
+    second: PRAS- Fire_84
+  - first:
+      213: 1008075608299606482
+    second: PRAS- Fire_85
+  - first:
+      213: 4448058381551485466
+    second: PRAS- Fire_86
+  - first:
+      213: -5383052901895587559
+    second: PRAS- Fire_87
+  - first:
+      213: 6980178138877442999
+    second: PRAS- Fire_88
+  - first:
+      213: -7393024395473402369
+    second: PRAS- Fire_89
+  - first:
+      213: -1822501771185349037
+    second: PRAS- Fire_90
+  - first:
+      213: 5491120253406967685
+    second: PRAS- Fire_91
+  - first:
+      213: -3914534725111483338
+    second: PRAS- Fire_92
+  - first:
+      213: 1886662536083270446
+    second: PRAS- Fire_93
+  - first:
+      213: -3612062340095802637
+    second: PRAS- Fire_94
+  - first:
+      213: -3453829356042814706
+    second: PRAS- Fire_95
+  - first:
+      213: 57203227921048038
+    second: PRAS- Fire_96
+  - first:
+      213: 5179574473563870916
+    second: PRAS- Fire_97
+  - first:
+      213: -1258410954759613477
+    second: PRAS- Fire_98
+  - first:
+      213: -6099854118286143405
+    second: PRAS- Fire_99
+  - first:
+      213: -3391634278454543228
+    second: PRAS- Fire_100
+  - first:
+      213: -5386177240254107229
+    second: PRAS- Fire_101
+  - first:
+      213: 4668738411461105761
+    second: PRAS- Fire_102
+  - first:
+      213: 5730575869447763104
+    second: PRAS- Fire_103
+  - first:
+      213: -5757518142861745321
+    second: PRAS- Fire_104
+  - first:
+      213: 6347478259046281097
+    second: PRAS- Fire_105
+  - first:
+      213: 6459220852198963108
+    second: PRAS- Fire_106
+  - first:
+      213: -7265711923536015503
+    second: PRAS- Fire_107
+  - first:
+      213: -3021186179998031362
+    second: PRAS- Fire_108
+  - first:
+      213: 4778769566806241620
+    second: PRAS- Fire_109
+  - first:
+      213: 3804631125729862740
+    second: PRAS- Fire_110
+  - first:
+      213: -5063102861645089753
+    second: PRAS- Fire_111
+  - first:
+      213: 1526388912821718548
+    second: PRAS- Fire_112
+  - first:
+      213: -5410132813677243479
+    second: PRAS- Fire_113
+  - first:
+      213: -4159072543168011172
+    second: PRAS- Fire_114
+  - first:
+      213: -7744635283038669388
+    second: PRAS- Fire_115
+  - first:
+      213: -1950769135326258703
+    second: PRAS- Fire_116
+  - first:
+      213: 2424248839846663223
+    second: PRAS- Fire_117
+  - first:
+      213: 5590593277751828726
+    second: PRAS- Fire_118
+  - first:
+      213: -1437227464668098440
+    second: PRAS- Fire_119
+  - first:
+      213: 6080151003377646284
+    second: PRAS- Fire_120
+  - first:
+      213: 4582077499928247326
+    second: PRAS- Fire_121
+  - first:
+      213: 3736222968378848897
+    second: PRAS- Fire_122
+  - first:
+      213: -8025185171511616718
+    second: PRAS- Fire_123
+  - first:
+      213: -4189181324237954154
+    second: PRAS- Fire_124
+  - first:
+      213: 6690251649972599909
+    second: PRAS- Fire_125
+  - first:
+      213: -7624991174581553327
+    second: PRAS- Fire_126
+  - first:
+      213: 5565025015809478866
+    second: PRAS- Fire_127
+  - first:
+      213: -702738239363270071
+    second: PRAS- Fire_128
+  - first:
+      213: -5017556044935544091
+    second: PRAS- Fire_129
+  - first:
+      213: 58643709074515247
+    second: PRAS- Fire_130
+  - first:
+      213: -8673300561340208009
+    second: PRAS- Fire_131
+  - first:
+      213: 7588898300322736612
+    second: PRAS- Fire_132
+  - first:
+      213: -7202046004714175040
+    second: PRAS- Fire_133
+  - first:
+      213: -1257277962017579563
+    second: PRAS- Fire_134
+  - first:
+      213: 2555894773765022942
+    second: PRAS- Fire_135
+  - first:
+      213: -6262820458021367903
+    second: PRAS- Fire_136
+  - first:
+      213: -7517166221491706831
+    second: PRAS- Fire_137
+  - first:
+      213: -3298226054428546281
+    second: PRAS- Fire_138
+  - first:
+      213: -4630104881821209946
+    second: PRAS- Fire_139
+  - first:
+      213: -738350606911476147
+    second: PRAS- Fire_140
+  - first:
+      213: 4213029130435891540
+    second: PRAS- Fire_141
+  - first:
+      213: -8268854661941789370
+    second: PRAS- Fire_142
+  - first:
+      213: -2264302376108405704
+    second: PRAS- Fire_143
+  - first:
+      213: 6987087671094649645
+    second: PRAS- Fire_144
+  - first:
+      213: -8472219152778252294
+    second: PRAS- Fire_145
+  - first:
+      213: -1559225753460755450
+    second: PRAS- Fire_146
+  - first:
+      213: 2585528034827998482
+    second: PRAS- Fire_147
+  - first:
+      213: 6471940851811878671
+    second: PRAS- Fire_148
+  - first:
+      213: -5132059102162459039
+    second: PRAS- Fire_149
+  - first:
+      213: -6830854194164728392
+    second: PRAS- Fire_150
+  - first:
+      213: 6560229168831019630
+    second: PRAS- Fire_151
+  - first:
+      213: 6612134305568592447
+    second: PRAS- Fire_152
+  - first:
+      213: 3320081154165385096
+    second: PRAS- Fire_153
+  - first:
+      213: 9034186284017019659
+    second: PRAS- Fire_154
+  - first:
+      213: 5817542030396009763
+    second: PRAS- Fire_155
+  - first:
+      213: -1838081705659929033
+    second: PRAS- Fire_156
+  - first:
+      213: -354059855904097848
+    second: PRAS- Fire_157
+  - first:
+      213: -4407209991561502769
+    second: PRAS- Fire_158
+  - first:
+      213: 7373629107867307810
+    second: PRAS- Fire_159
+  - first:
+      213: -691018763534344613
+    second: PRAS- Fire_160
+  - first:
+      213: -5648798039840959740
+    second: PRAS- Fire_161
+  - first:
+      213: 2651862432220725426
+    second: PRAS- Fire_162
+  - first:
+      213: 3409925277296923374
+    second: PRAS- Fire_163
+  - first:
+      213: 3508027292223514329
+    second: PRAS- Fire_164
+  - first:
+      213: 3009818296008435737
+    second: PRAS- Fire_165
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PRAS- Fire_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2489
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb62a9d7e2eee6ec0800000000000000
+      internalID: -3571655571015063874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2489
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 354ee20f547e99ed0800000000000000
+      internalID: -2406638238284454829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2489
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ce9a964c5cfb5e0800000000000000
+      internalID: -1891575871095313382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2489
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 440d8cbc94ff7e020800000000000000
+      internalID: 2371144421250486340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_4
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2489
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e33c59905a46ab0800000000000000
+      internalID: -5015702624398000621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2298
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a030fc69aceba50800000000000000
+      internalID: 6538886458055527023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2298
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b1c77406fd41f90800000000000000
+      internalID: -6983711517535626468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2298
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc207a036fbadbbe0800000000000000
+      internalID: -1459821630331616564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_8
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2298
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c9ba93ad9b2f6300800000000000000
+      internalID: 247464460583352770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_9
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2298
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc6c8e8525091d8d0800000000000000
+      internalID: -2823316808031222065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2107
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76c584d797a54c690800000000000000
+      internalID: -7582836394745635737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2107
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c260b0a762041e0800000000000000
+      internalID: -2215728711053464443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2107
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c254520870281a7c0800000000000000
+      internalID: -4061822420185168596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_13
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2107
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c762f2c96bcd540800000000000000
+      internalID: 5034099265415576687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_14
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2107
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6a7fdf2a6e02760800000000000000
+      internalID: 7431192972881274574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1916
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa49fbaf6afb9040800000000000000
+      internalID: 4655589997351095036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1916
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6351fead91bcebde0800000000000000
+      internalID: -1315390729237883594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_17
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1916
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4a3b8dc272e4920800000000000000
+      internalID: 2976359477306172620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1916
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6736c260d026af860800000000000000
+      internalID: 7564466332199838582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_19
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1916
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c83ed8d1d7b7bb0800000000000000
+      internalID: -4937215000593593240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1725
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f370a51568d601d0800000000000000
+      internalID: -3384780141256215567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1725
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a087dab3c73fd1d0800000000000000
+      internalID: -3323876686183300960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1725
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac73c4aeca09d97a0800000000000000
+      internalID: -6368775225692375094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_23
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1725
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f166a69d79f226390800000000000000
+      internalID: -7826640873182304737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_24
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1725
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666ec00309f6eaac0800000000000000
+      internalID: -3842010767028328858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1534
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf4484a62452cb520800000000000000
+      internalID: 2719089242206127356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1534
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a24f460a3b2e05d0800000000000000
+      internalID: -3094488365742996823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1534
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7987317018e476810800000000000000
+      internalID: 1758460495587932311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_28
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1534
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e2504ee2b27d590800000000000000
+      internalID: -7649597961671463332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_29
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1534
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77efcf926b9397920800000000000000
+      internalID: 2988483282288311927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1343
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41db5d478ffb8bb0800000000000000
+      internalID: -4932568010270715573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1343
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 725d2afd45b983610800000000000000
+      internalID: 1601200456361760039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_32
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1343
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b9c2c5de08055d0800000000000000
+      internalID: -3075816788552017113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_33
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1343
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e051f499c4d47ce20800000000000000
+      internalID: 3370747837495055630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_34
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1343
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e77f51599e612b0800000000000000
+      internalID: -5614043058942804428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3715c07e2bb33980800000000000000
+      internalID: -8560292658566326469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_36
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1152
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c11aa656ebbe700800000000000000
+      internalID: 570759120582417559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_37
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1152
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc71b673ec41ba820800000000000000
+      internalID: 2930458858460223436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_38
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1152
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef1887ba6545d5c0800000000000000
+      internalID: -4191367553550376989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_39
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1152
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbbaf44c3832dc670800000000000000
+      internalID: 8560537515542424511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 961
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d48f623bb34ede0800000000000000
+      internalID: -1304852351391609522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_41
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 961
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dd61491078df83a0800000000000000
+      internalID: -6660867347886019116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_42
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 961
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86cd0e8ec8fa2090800000000000000
+      internalID: -8058355017195862385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_43
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 961
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3757bf818a1ed7860800000000000000
+      internalID: 7529422264123225459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_44
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 961
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fefac1db97c6e330800000000000000
+      internalID: 3739896012631375607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 770
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 543440f7d8b54de50800000000000000
+      internalID: 6833187197907387205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 770
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6cb7c3c632a8be80800000000000000
+      internalID: -8162595968512443286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_47
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 770
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92828b3187c8133d0800000000000000
+      internalID: -3228645010493134807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_48
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 770
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb99ed50392e4cb0800000000000000
+      internalID: -4877916058684908604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_49
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 770
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807d72fe19995d030800000000000000
+      internalID: 3518887535921583880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 579
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c37ce5f7b5f21f580800000000000000
+      internalID: -8795196527252420804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_51
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 579
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f54c3654ed4e3a0800000000000000
+      internalID: -6636935561229344975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_52
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 579
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 847a740f584a831f0800000000000000
+      internalID: -1064920416704288952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_53
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 579
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1ecc4f3706a0030800000000000000
+      internalID: 3461685314732220892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_54
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 579
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1610330ad90f4f6e0800000000000000
+      internalID: -1804552990880497311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 388
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0651833377f082d30800000000000000
+      internalID: 4406789240016868704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_56
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 388
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58607ef98a2705af0800000000000000
+      internalID: -409701497527925115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_57
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 388
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a368458aa3ebdca0800000000000000
+      internalID: -5990944557766253664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_58
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 388
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c738a8fba98f7140800000000000000
+      internalID: 4719642306211755973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_59
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 388
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4caf025d050acfb30800000000000000
+      internalID: 4322506011402369732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 197
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a2ffc9e4c0f1d10800000000000000
+      internalID: 2098409483158891037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_61
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 197
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56de2c4cd631e6050800000000000000
+      internalID: 5795591132645879141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_62
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 197
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd489091c275ce3d0800000000000000
+      internalID: -3176067790292810532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_63
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 197
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f0641e89f6da5590800000000000000
+      internalID: -7684593446835429132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_64
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 197
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d178c50872069e30800000000000000
+      internalID: 4509794791374483925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76fd8dff01f890f90800000000000000
+      internalID: -6986896043713962137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_66
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 6
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2ec2791282c8420800000000000000
+      internalID: 2633524006840230608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Fire_67
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 6
+        width: 192
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2594b30bf49ce10800000000000000
+      internalID: 2218391909784179421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 58adb3804be4cdc4dab5c32fa29d3f01
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PRAS- Fire_0: -3571655571015063874
+      PRAS- Fire_1: -2406638238284454829
+      PRAS- Fire_10: -7582836394745635737
+      PRAS- Fire_11: -2215728711053464443
+      PRAS- Fire_12: -4061822420185168596
+      PRAS- Fire_13: 5034099265415576687
+      PRAS- Fire_14: 7431192972881274574
+      PRAS- Fire_15: 4655589997351095036
+      PRAS- Fire_16: -1315390729237883594
+      PRAS- Fire_17: 2976359477306172620
+      PRAS- Fire_18: 7564466332199838582
+      PRAS- Fire_19: -4937215000593593240
+      PRAS- Fire_2: -1891575871095313382
+      PRAS- Fire_20: -3384780141256215567
+      PRAS- Fire_21: -3323876686183300960
+      PRAS- Fire_22: -6368775225692375094
+      PRAS- Fire_23: -7826640873182304737
+      PRAS- Fire_24: -3842010767028328858
+      PRAS- Fire_25: 2719089242206127356
+      PRAS- Fire_26: -3094488365742996823
+      PRAS- Fire_27: 1758460495587932311
+      PRAS- Fire_28: -7649597961671463332
+      PRAS- Fire_29: 2988483282288311927
+      PRAS- Fire_3: 2371144421250486340
+      PRAS- Fire_30: -4932568010270715573
+      PRAS- Fire_31: 1601200456361760039
+      PRAS- Fire_32: -3075816788552017113
+      PRAS- Fire_33: 3370747837495055630
+      PRAS- Fire_34: -5614043058942804428
+      PRAS- Fire_35: -8560292658566326469
+      PRAS- Fire_36: 570759120582417559
+      PRAS- Fire_37: 2930458858460223436
+      PRAS- Fire_38: -4191367553550376989
+      PRAS- Fire_39: 8560537515542424511
+      PRAS- Fire_4: -5015702624398000621
+      PRAS- Fire_40: -1304852351391609522
+      PRAS- Fire_41: -6660867347886019116
+      PRAS- Fire_42: -8058355017195862385
+      PRAS- Fire_43: 7529422264123225459
+      PRAS- Fire_44: 3739896012631375607
+      PRAS- Fire_45: 6833187197907387205
+      PRAS- Fire_46: -8162595968512443286
+      PRAS- Fire_47: -3228645010493134807
+      PRAS- Fire_48: -4877916058684908604
+      PRAS- Fire_49: 3518887535921583880
+      PRAS- Fire_5: 6538886458055527023
+      PRAS- Fire_50: -8795196527252420804
+      PRAS- Fire_51: -6636935561229344975
+      PRAS- Fire_52: -1064920416704288952
+      PRAS- Fire_53: 3461685314732220892
+      PRAS- Fire_54: -1804552990880497311
+      PRAS- Fire_55: 4406789240016868704
+      PRAS- Fire_56: -409701497527925115
+      PRAS- Fire_57: -5990944557766253664
+      PRAS- Fire_58: 4719642306211755973
+      PRAS- Fire_59: 4322506011402369732
+      PRAS- Fire_6: -6983711517535626468
+      PRAS- Fire_60: 2098409483158891037
+      PRAS- Fire_61: 5795591132645879141
+      PRAS- Fire_62: -3176067790292810532
+      PRAS- Fire_63: -7684593446835429132
+      PRAS- Fire_64: 4509794791374483925
+      PRAS- Fire_65: -6986896043713962137
+      PRAS- Fire_66: 2633524006840230608
+      PRAS- Fire_67: 2218391909784179421
+      PRAS- Fire_7: -1459821630331616564
+      PRAS- Fire_8: 247464460583352770
+      PRAS- Fire_9: -2823316808031222065
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

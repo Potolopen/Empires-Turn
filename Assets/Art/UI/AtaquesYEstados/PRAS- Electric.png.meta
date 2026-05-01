@@ -1,0 +1,1954 @@
+fileFormatVersion: 2
+guid: 01e4550d92a9a2d418701258da004e7b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7253319182882244586
+    second: PRAS- Electric_0
+  - first:
+      213: 1877089719079627940
+    second: PRAS- Electric_1
+  - first:
+      213: 3233487149123224177
+    second: PRAS- Electric_2
+  - first:
+      213: 6142592354786487530
+    second: PRAS- Electric_3
+  - first:
+      213: 1524285642350313520
+    second: PRAS- Electric_4
+  - first:
+      213: -7923441101168010947
+    second: PRAS- Electric_5
+  - first:
+      213: -480104524661153236
+    second: PRAS- Electric_6
+  - first:
+      213: 4125281289569765982
+    second: PRAS- Electric_7
+  - first:
+      213: 7265785910340084252
+    second: PRAS- Electric_8
+  - first:
+      213: 7609619740776721624
+    second: PRAS- Electric_9
+  - first:
+      213: 6707716386769577469
+    second: PRAS- Electric_10
+  - first:
+      213: 8678808145312650731
+    second: PRAS- Electric_11
+  - first:
+      213: -1865645474448693772
+    second: PRAS- Electric_12
+  - first:
+      213: -7835729256647777047
+    second: PRAS- Electric_13
+  - first:
+      213: 1477496620135997375
+    second: PRAS- Electric_14
+  - first:
+      213: -7395907610414294296
+    second: PRAS- Electric_15
+  - first:
+      213: 5374272897110724954
+    second: PRAS- Electric_16
+  - first:
+      213: -5816057558812086503
+    second: PRAS- Electric_17
+  - first:
+      213: -7526146843395390619
+    second: PRAS- Electric_18
+  - first:
+      213: -5791390807094683424
+    second: PRAS- Electric_19
+  - first:
+      213: 102368905264996405
+    second: PRAS- Electric_20
+  - first:
+      213: -5112662335564716956
+    second: PRAS- Electric_21
+  - first:
+      213: 5898643101318713117
+    second: PRAS- Electric_22
+  - first:
+      213: 1117413378528173011
+    second: PRAS- Electric_23
+  - first:
+      213: -8231243476920780481
+    second: PRAS- Electric_24
+  - first:
+      213: 6603600516574055541
+    second: PRAS- Electric_25
+  - first:
+      213: 4760689299488235682
+    second: PRAS- Electric_26
+  - first:
+      213: -931956432753429441
+    second: PRAS- Electric_27
+  - first:
+      213: 1042507717484778608
+    second: PRAS- Electric_28
+  - first:
+      213: -656098421639505948
+    second: PRAS- Electric_29
+  - first:
+      213: 8902212852446848415
+    second: PRAS- Electric_30
+  - first:
+      213: -6276363844568958257
+    second: PRAS- Electric_31
+  - first:
+      213: -3828993900010667586
+    second: PRAS- Electric_32
+  - first:
+      213: -960750056237573613
+    second: PRAS- Electric_33
+  - first:
+      213: 1865645918334217400
+    second: PRAS- Electric_34
+  - first:
+      213: 7492868229349456776
+    second: PRAS- Electric_35
+  - first:
+      213: 4460447040587380080
+    second: PRAS- Electric_36
+  - first:
+      213: -8271012173648554986
+    second: PRAS- Electric_37
+  - first:
+      213: 1249483663065089717
+    second: PRAS- Electric_38
+  - first:
+      213: -3967919358689099709
+    second: PRAS- Electric_39
+  - first:
+      213: 4266418995134229402
+    second: PRAS- Electric_40
+  - first:
+      213: -2339056275767239495
+    second: PRAS- Electric_41
+  - first:
+      213: -6610079456713413862
+    second: PRAS- Electric_42
+  - first:
+      213: 3694042749693568538
+    second: PRAS- Electric_43
+  - first:
+      213: 7040404415968777367
+    second: PRAS- Electric_44
+  - first:
+      213: -6289836526342956827
+    second: PRAS- Electric_45
+  - first:
+      213: -7365851546527460690
+    second: PRAS- Electric_46
+  - first:
+      213: 8444960125873249193
+    second: PRAS- Electric_47
+  - first:
+      213: 5953899982905973393
+    second: PRAS- Electric_48
+  - first:
+      213: 20887318579516582
+    second: PRAS- Electric_49
+  - first:
+      213: 4921586993290057750
+    second: PRAS- Electric_50
+  - first:
+      213: -5591575697574803282
+    second: PRAS- Electric_51
+  - first:
+      213: -5892710310148830656
+    second: PRAS- Electric_52
+  - first:
+      213: 5632534260664267504
+    second: PRAS- Electric_53
+  - first:
+      213: 7879578566064542904
+    second: PRAS- Electric_54
+  - first:
+      213: -1339997862220652676
+    second: PRAS- Electric_55
+  - first:
+      213: -6027481276347979960
+    second: PRAS- Electric_56
+  - first:
+      213: 7797180195884232409
+    second: PRAS- Electric_57
+  - first:
+      213: 1919091483469977919
+    second: PRAS- Electric_58
+  - first:
+      213: 3419056141739293568
+    second: PRAS- Electric_59
+  - first:
+      213: -1289403902577645777
+    second: PRAS- Electric_60
+  - first:
+      213: 7922532524181028124
+    second: PRAS- Electric_61
+  - first:
+      213: -6598740951005200297
+    second: PRAS- Electric_62
+  - first:
+      213: -6382034160242391391
+    second: PRAS- Electric_63
+  - first:
+      213: 1247796653893173736
+    second: PRAS- Electric_64
+  - first:
+      213: 5163447555470009556
+    second: PRAS- Electric_65
+  - first:
+      213: 7513970450990649384
+    second: PRAS- Electric_66
+  - first:
+      213: 1288702306595041908
+    second: PRAS- Electric_67
+  - first:
+      213: 7999314886767627746
+    second: PRAS- Electric_68
+  - first:
+      213: -7172370188993466951
+    second: PRAS- Electric_69
+  - first:
+      213: -4221856933389864561
+    second: PRAS- Electric_70
+  - first:
+      213: 5177455335129174290
+    second: PRAS- Electric_71
+  - first:
+      213: -3686589698550982466
+    second: PRAS- Electric_72
+  - first:
+      213: 5739441168214295599
+    second: PRAS- Electric_73
+  - first:
+      213: 4499261496803369885
+    second: PRAS- Electric_74
+  - first:
+      213: 6563885645646117835
+    second: PRAS- Electric_75
+  - first:
+      213: 6718589683241048882
+    second: PRAS- Electric_76
+  - first:
+      213: 6733288242474301786
+    second: PRAS- Electric_77
+  - first:
+      213: 7362453207239094009
+    second: PRAS- Electric_78
+  - first:
+      213: 5108166797373116679
+    second: PRAS- Electric_79
+  - first:
+      213: -4495630186399578306
+    second: PRAS- Electric_80
+  - first:
+      213: -6781706936407529229
+    second: PRAS- Electric_81
+  - first:
+      213: 5057253464635761032
+    second: PRAS- Electric_82
+  - first:
+      213: 5521899932400679235
+    second: PRAS- Electric_83
+  - first:
+      213: 540312202679533486
+    second: PRAS- Electric_84
+  - first:
+      213: -1259056229786276158
+    second: PRAS- Electric_85
+  - first:
+      213: 6878418907307314912
+    second: PRAS- Electric_86
+  - first:
+      213: -250467280021179161
+    second: PRAS- Electric_87
+  - first:
+      213: -1989425347083493624
+    second: PRAS- Electric_88
+  - first:
+      213: -4983014311476787642
+    second: PRAS- Electric_89
+  - first:
+      213: 1273387263913762064
+    second: PRAS- Electric_90
+  - first:
+      213: -6432295005661073645
+    second: PRAS- Electric_91
+  - first:
+      213: 2506840637418447472
+    second: PRAS- Electric_92
+  - first:
+      213: 3783724414320715824
+    second: PRAS- Electric_93
+  - first:
+      213: -4417101124900865016
+    second: PRAS- Electric_94
+  - first:
+      213: 8536820862416458960
+    second: PRAS- Electric_95
+  - first:
+      213: 1675964582045495446
+    second: PRAS- Electric_96
+  - first:
+      213: -932229838108345892
+    second: PRAS- Electric_97
+  - first:
+      213: 2194641906180288558
+    second: PRAS- Electric_98
+  - first:
+      213: -1990186618778379645
+    second: PRAS- Electric_99
+  - first:
+      213: 6968398605113167061
+    second: PRAS- Electric_100
+  - first:
+      213: -4054758253704428567
+    second: PRAS- Electric_101
+  - first:
+      213: 4929620421558534451
+    second: PRAS- Electric_102
+  - first:
+      213: -7124813446239207217
+    second: PRAS- Electric_103
+  - first:
+      213: 5576355953972947142
+    second: PRAS- Electric_104
+  - first:
+      213: -1054587131227599277
+    second: PRAS- Electric_105
+  - first:
+      213: 1931120874214748087
+    second: PRAS- Electric_106
+  - first:
+      213: -5894065479041822050
+    second: PRAS- Electric_107
+  - first:
+      213: 1517167476372865959
+    second: PRAS- Electric_108
+  - first:
+      213: -2328614330328198826
+    second: PRAS- Electric_109
+  - first:
+      213: -8368604827585822859
+    second: PRAS- Electric_110
+  - first:
+      213: 4034617348271971041
+    second: PRAS- Electric_111
+  - first:
+      213: 487189350113294921
+    second: PRAS- Electric_112
+  - first:
+      213: -1578222801916089444
+    second: PRAS- Electric_113
+  - first:
+      213: -2480944667341475934
+    second: PRAS- Electric_114
+  - first:
+      213: 6174401490077500142
+    second: PRAS- Electric_115
+  - first:
+      213: -5625676069721444793
+    second: PRAS- Electric_116
+  - first:
+      213: -109023127081425525
+    second: PRAS- Electric_117
+  - first:
+      213: -1197111919520490729
+    second: PRAS- Electric_118
+  - first:
+      213: 2726586750612888320
+    second: PRAS- Electric_119
+  - first:
+      213: -7298600408450464044
+    second: PRAS- Electric_120
+  - first:
+      213: -4304509319595644235
+    second: PRAS- Electric_121
+  - first:
+      213: 4280318426751934499
+    second: PRAS- Electric_122
+  - first:
+      213: -4042829632809294746
+    second: PRAS- Electric_123
+  - first:
+      213: 1351923513576336424
+    second: PRAS- Electric_124
+  - first:
+      213: 48848963083964472
+    second: PRAS- Electric_125
+  - first:
+      213: 8340188378101335283
+    second: PRAS- Electric_126
+  - first:
+      213: 7075169026758101635
+    second: PRAS- Electric_127
+  - first:
+      213: -1334176230694530628
+    second: PRAS- Electric_128
+  - first:
+      213: -3865613279662666994
+    second: PRAS- Electric_129
+  - first:
+      213: -7287781539021280883
+    second: PRAS- Electric_130
+  - first:
+      213: -2376878576451874866
+    second: PRAS- Electric_131
+  - first:
+      213: -909674018140898402
+    second: PRAS- Electric_132
+  - first:
+      213: 6557937145373424368
+    second: PRAS- Electric_133
+  - first:
+      213: -6314411305953173377
+    second: PRAS- Electric_134
+  - first:
+      213: 6176825463340600192
+    second: PRAS- Electric_135
+  - first:
+      213: -7341544002849793534
+    second: PRAS- Electric_136
+  - first:
+      213: -8724483299001930484
+    second: PRAS- Electric_137
+  - first:
+      213: 8961204593693969258
+    second: PRAS- Electric_138
+  - first:
+      213: -8291678007529801024
+    second: PRAS- Electric_139
+  - first:
+      213: -9068310933497064997
+    second: PRAS- Electric_140
+  - first:
+      213: 2320740735150901744
+    second: PRAS- Electric_141
+  - first:
+      213: -7428961093914984600
+    second: PRAS- Electric_142
+  - first:
+      213: 3637090080857227447
+    second: PRAS- Electric_143
+  - first:
+      213: 7412945829613421777
+    second: PRAS- Electric_144
+  - first:
+      213: 7478113137205332330
+    second: PRAS- Electric_145
+  - first:
+      213: -9186112428655656375
+    second: PRAS- Electric_146
+  - first:
+      213: 2315364248136571354
+    second: PRAS- Electric_147
+  - first:
+      213: -7992579622208332006
+    second: PRAS- Electric_148
+  - first:
+      213: -4924145804943846856
+    second: PRAS- Electric_149
+  - first:
+      213: 2763650529487361315
+    second: PRAS- Electric_150
+  - first:
+      213: -3665759265613579593
+    second: PRAS- Electric_151
+  - first:
+      213: 8564819523260031077
+    second: PRAS- Electric_152
+  - first:
+      213: -878931080346064633
+    second: PRAS- Electric_153
+  - first:
+      213: -8860169015889656539
+    second: PRAS- Electric_154
+  - first:
+      213: -4693074975765627967
+    second: PRAS- Electric_155
+  - first:
+      213: 3922747789580313201
+    second: PRAS- Electric_156
+  - first:
+      213: -5733936675181253653
+    second: PRAS- Electric_157
+  - first:
+      213: -3515011280447595331
+    second: PRAS- Electric_158
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PRAS- Electric_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2112
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 618f6c502a8075b90800000000000000
+      internalID: -7253319182882244586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2112
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac674d7723cc0a10800000000000000
+      internalID: 1877089719079627940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2112
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 172c74d2e67afdc20800000000000000
+      internalID: 3233487149123224177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2112
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec241ba33fde3550800000000000000
+      internalID: 6142592354786487530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_4
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2112
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030c48837b9572510800000000000000
+      internalID: 1524285642350313520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3996267c484a0290800000000000000
+      internalID: -7923441101168010947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1920
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22a3808a735659f0800000000000000
+      internalID: -480104524661153236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1920
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a0f57e971ff3930800000000000000
+      internalID: 4125281289569765982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_8
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1920
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12ebd72ac145d460800000000000000
+      internalID: 7265785910340084252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_9
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1920
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dcebc436dcca9960800000000000000
+      internalID: 7609619740776721624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1728
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df5a777c388961d50800000000000000
+      internalID: 6707716386769577469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1728
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be5902f9602517870800000000000000
+      internalID: 8678808145312650731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1728
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5abaa5355eb16e0800000000000000
+      internalID: -1865645474448693772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_13
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1728
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e4af5da1c5e14390800000000000000
+      internalID: -7835729256647777047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_14
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1728
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbfdb00195f118410800000000000000
+      internalID: 1477496620135997375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ead5a9a6357c5990800000000000000
+      internalID: -7395907610414294296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1536
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a515b4ec9b0459a40800000000000000
+      internalID: 5374272897110724954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_17
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1536
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91fa7cd0776394fa0800000000000000
+      internalID: -5816057558812086503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1536
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5638df73251cd8790800000000000000
+      internalID: -7526146843395390619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_19
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1536
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e898abbeb8d0afa0800000000000000
+      internalID: -5791390807094683424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1344
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 530ad5a1affab6100800000000000000
+      internalID: 102368905264996405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1344
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4646520a1bc2c09b0800000000000000
+      internalID: -5112662335564716956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1344
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f09e6f5a03cd150800000000000000
+      internalID: 5898643101318713117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_23
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1344
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dbd0762c89d18f00800000000000000
+      internalID: 1117413378528173011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_24
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1344
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39b2623bafb4cd80800000000000000
+      internalID: -8231243476920780481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57c8bf4bea3b4ab50800000000000000
+      internalID: 6603600516574055541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1152
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0eff5d1bd511240800000000000000
+      internalID: 4760689299488235682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1152
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f347797ef860113f0800000000000000
+      internalID: -931956432753429441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_28
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1152
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0749840ee3bb77e00800000000000000
+      internalID: 1042507717484778608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_29
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1152
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e79b7036f115e6f0800000000000000
+      internalID: -656098421639505948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95e2016c630b8b70800000000000000
+      internalID: 8902212852446848415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 960
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcabc534650e5e8a0800000000000000
+      internalID: -6276363844568958257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_32
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 960
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb10ab6b55eacdac0800000000000000
+      internalID: -3828993900010667586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_33
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 960
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ad5040aeabaa2f0800000000000000
+      internalID: -960750056237573613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_34
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 960
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bce7fef31b14e910800000000000000
+      internalID: 1865645918334217400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b3f27a4f30cf760800000000000000
+      internalID: 7492868229349456776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_36
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 768
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07537a173f0b6ed30800000000000000
+      internalID: 4460447040587380080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_37
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6141fb0ff36773d80800000000000000
+      internalID: -8271012173648554986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_38
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 768
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b606a185ce075110800000000000000
+      internalID: 1249483663065089717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_39
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 340c0ffbd5e1fe8c0800000000000000
+      internalID: -3967919358689099709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b64fbb87d553b30800000000000000
+      internalID: 4266418995134229402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_41
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bcde35c5b00a8fd0800000000000000
+      internalID: -2339056275767239495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_42
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b6d7d71c74444a0800000000000000
+      internalID: -6610079456713413862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_43
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 576
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16a7981f40e34330800000000000000
+      internalID: 3694042749693568538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_44
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 576
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79419e0c38a84b160800000000000000
+      internalID: 7040404415968777367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e81d08110306b8a0800000000000000
+      internalID: -6289836526342956827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea218fc5b0d37c990800000000000000
+      internalID: -7365851546527460690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_47
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab530dbd76823570800000000000000
+      internalID: 8444960125873249193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_48
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 384
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a90554d7080a250800000000000000
+      internalID: 5953899982905973393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_49
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a41e34d7e43a4000800000000000000
+      internalID: 20887318579516582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6189c327b4dfc4440800000000000000
+      internalID: 4921586993290057750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_51
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8c85b478bb662b0800000000000000
+      internalID: -5591575697574803282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_52
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a0c4f9133e83ea0800000000000000
+      internalID: -5892710310148830656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_53
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f27c105118ca2e40800000000000000
+      internalID: 5632534260664267504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_54
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b41f0245f2e95d60800000000000000
+      internalID: 7879578566064542904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f1e8e3b0f576de0800000000000000
+      internalID: -1339997862220652676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_56
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 847e5f0d6b51a5ca0800000000000000
+      internalID: -6027481276347979960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PRAS- Electric_57
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dee361b316253c60800000000000000
+      internalID: 7797180195884232409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 25ff34744aef2994f9133b14e99c52d9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PRAS- Electric_0: -7253319182882244586
+      PRAS- Electric_1: 1877089719079627940
+      PRAS- Electric_10: 6707716386769577469
+      PRAS- Electric_11: 8678808145312650731
+      PRAS- Electric_12: -1865645474448693772
+      PRAS- Electric_13: -7835729256647777047
+      PRAS- Electric_14: 1477496620135997375
+      PRAS- Electric_15: -7395907610414294296
+      PRAS- Electric_16: 5374272897110724954
+      PRAS- Electric_17: -5816057558812086503
+      PRAS- Electric_18: -7526146843395390619
+      PRAS- Electric_19: -5791390807094683424
+      PRAS- Electric_2: 3233487149123224177
+      PRAS- Electric_20: 102368905264996405
+      PRAS- Electric_21: -5112662335564716956
+      PRAS- Electric_22: 5898643101318713117
+      PRAS- Electric_23: 1117413378528173011
+      PRAS- Electric_24: -8231243476920780481
+      PRAS- Electric_25: 6603600516574055541
+      PRAS- Electric_26: 4760689299488235682
+      PRAS- Electric_27: -931956432753429441
+      PRAS- Electric_28: 1042507717484778608
+      PRAS- Electric_29: -656098421639505948
+      PRAS- Electric_3: 6142592354786487530
+      PRAS- Electric_30: 8902212852446848415
+      PRAS- Electric_31: -6276363844568958257
+      PRAS- Electric_32: -3828993900010667586
+      PRAS- Electric_33: -960750056237573613
+      PRAS- Electric_34: 1865645918334217400
+      PRAS- Electric_35: 7492868229349456776
+      PRAS- Electric_36: 4460447040587380080
+      PRAS- Electric_37: -8271012173648554986
+      PRAS- Electric_38: 1249483663065089717
+      PRAS- Electric_39: -3967919358689099709
+      PRAS- Electric_4: 1524285642350313520
+      PRAS- Electric_40: 4266418995134229402
+      PRAS- Electric_41: -2339056275767239495
+      PRAS- Electric_42: -6610079456713413862
+      PRAS- Electric_43: 3694042749693568538
+      PRAS- Electric_44: 7040404415968777367
+      PRAS- Electric_45: -6289836526342956827
+      PRAS- Electric_46: -7365851546527460690
+      PRAS- Electric_47: 8444960125873249193
+      PRAS- Electric_48: 5953899982905973393
+      PRAS- Electric_49: 20887318579516582
+      PRAS- Electric_5: -7923441101168010947
+      PRAS- Electric_50: 4921586993290057750
+      PRAS- Electric_51: -5591575697574803282
+      PRAS- Electric_52: -5892710310148830656
+      PRAS- Electric_53: 5632534260664267504
+      PRAS- Electric_54: 7879578566064542904
+      PRAS- Electric_55: -1339997862220652676
+      PRAS- Electric_56: -6027481276347979960
+      PRAS- Electric_57: 7797180195884232409
+      PRAS- Electric_6: -480104524661153236
+      PRAS- Electric_7: 4125281289569765982
+      PRAS- Electric_8: 7265785910340084252
+      PRAS- Electric_9: 7609619740776721624
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

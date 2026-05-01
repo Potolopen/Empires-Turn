@@ -25,6 +25,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8cfa3d26de659e84c8dbe10b9af65073, type: 2}
   descripcion: "Envuelve al enemigo con su baba aplicandole en un 100% el estado
     de Lentitud, adem\xE1s de bajarle el Ataque Fisico y la Defensa Fisica [2T]."
-  vfxPrefab: {fileID: 0}
-  duracionAnimacion: 1.5
+  vfxPrefab: {fileID: 143205111377103682, guid: 0422a7147c9f36247842991253d48f71, type: 3}
+  duracionAnimacion: 0.5
   tiempoParaAplicarDano: 0.5

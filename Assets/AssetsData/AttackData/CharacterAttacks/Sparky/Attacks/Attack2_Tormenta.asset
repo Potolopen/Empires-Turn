@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Attack2_Tormenta
   m_EditorClassIdentifier: 
   nombre: Tormenta
-  rango: 10
+  rango: 7
   accuracy: 75
   objective: 0
   criticRate: 0
@@ -25,6 +25,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 221687fe334662e4891a388886ee0a1f, type: 2}
   descripcion: "Crea una lluvia que disminuye la Defensa Especial del enemigo [2T]
     y la Velocidad [3T]. Adem\xE1s de tener un 50% de causar Frio."
-  vfxPrefab: {fileID: 0}
-  duracionAnimacion: 1.5
+  vfxPrefab: {fileID: 250558852422085974, guid: 797918d5b593e4f42b133a3d96a9863e, type: 3}
+  duracionAnimacion: 0.5
   tiempoParaAplicarDano: 0.5

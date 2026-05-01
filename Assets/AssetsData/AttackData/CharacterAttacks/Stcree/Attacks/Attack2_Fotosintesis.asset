@@ -25,6 +25,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5958701e3303dae498cc717ea7d3c712, type: 2}
   descripcion: Otorga proteinas a si mismo o a los aliados capaz de curar 45 PS y
     aumenta la Defensa Fisica [2T] y la Velocidad [2T].
-  vfxPrefab: {fileID: 0}
-  duracionAnimacion: 1.5
+  vfxPrefab: {fileID: 6099605449474938552, guid: a083bc2e923de3a448823499e3f29e54, type: 3}
+  duracionAnimacion: 0.5
   tiempoParaAplicarDano: 0.5

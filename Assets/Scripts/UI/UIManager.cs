@@ -203,13 +203,7 @@ public class UIManager : MonoBehaviour
     // Metodo de cuando se clica el boton Atras del menu accion.
     public void OnClickAtras()
     {
-        // Miramos si el personaje seleccionado no es nulo.
-        if (selectedCharacter != null && selectedCharacter.characterMoved && !selectedCharacter.isActing && !selectedCharacter.characterAttacked)
-        {
-            // Hacemos que el personaje seleccionado se mueva hacia atras con el metodo que se encuentra en CharacterEntity.
-            selectedCharacter.GetComponent<CharacterMovement>().MoverPosicionAnterior();
-            // Escondemos el menu llamando a este metodo.
-        }
+        selectedCharacterMovement.ClickDerechoAccion();
     }
     
     // Metodo para el boton de aceptar, simplemente hace desaparecer el menu y deja al personaje donde está

@@ -25,6 +25,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9d30ac872e7733847bf849bf4f9d5ff3, type: 2}
   descripcion: "Deja caer una lagrima ardiente al enemigo que causa da\xF1o y tiene
     una probabilidad del 40% de quemar."
-  vfxPrefab: {fileID: 0}
-  duracionAnimacion: 1.5
-  tiempoParaAplicarDano: 0.5
+  vfxPrefab: {fileID: 2429581999129204402, guid: e8bbc119e535ea94f9eb209b76048c32, type: 3}
+  duracionAnimacion: 0.5
+  tiempoParaAplicarDano: 0.2

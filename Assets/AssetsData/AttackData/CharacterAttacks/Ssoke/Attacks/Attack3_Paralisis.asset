@@ -26,6 +26,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 6ca241ce8b19d46458b22f7a4cc5f8b3, type: 2}
   descripcion: Clava sus colmillos al enemigo disminuyendole la Velocidad [2T] y
     una probabilidad del 100% de envenenar.
-  vfxPrefab: {fileID: 0}
-  duracionAnimacion: 1.5
+  vfxPrefab: {fileID: 3149994864773593769, guid: 4eb60dc04e2c4c44ebfc128511540736, type: 3}
+  duracionAnimacion: 0.5
   tiempoParaAplicarDano: 0.5

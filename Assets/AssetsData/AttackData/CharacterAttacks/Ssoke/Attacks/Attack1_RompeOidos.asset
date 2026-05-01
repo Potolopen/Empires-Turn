@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Attack1_RompeOidos
   m_EditorClassIdentifier: 
   nombre: "Rompe O\xEDdos"
-  rango: 8
+  rango: 7
   accuracy: 90
   objective: 0
   criticRate: 15
@@ -25,6 +25,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 21e14365c0121454f9e149a181987ec2, type: 2}
   descripcion: Crea un fuerte estruendo que reduce la Defensa Especial del enemigo
     en un 75%.
-  vfxPrefab: {fileID: 0}
-  duracionAnimacion: 1.5
+  vfxPrefab: {fileID: 7531525471711079366, guid: d02adb418fada5a4cb141ca519270cd4, type: 3}
+  duracionAnimacion: 0.5
   tiempoParaAplicarDano: 0.5

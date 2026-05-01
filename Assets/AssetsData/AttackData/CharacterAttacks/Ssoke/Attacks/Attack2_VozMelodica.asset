@@ -25,6 +25,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d5cd2fc3ae413c8488edbd109e313aa1, type: 2}
   descripcion: "Crea una dulce voz que restaura 80 puntos de Salud y 60 puntos de
     Estamina. Si lo utiliza para el mismo solo restaurar\xE1 vida."
-  vfxPrefab: {fileID: 0}
-  duracionAnimacion: 1.5
+  vfxPrefab: {fileID: 7531525471711079366, guid: d02adb418fada5a4cb141ca519270cd4, type: 3}
+  duracionAnimacion: 0.5
   tiempoParaAplicarDano: 0.5

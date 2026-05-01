@@ -25,6 +25,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ff3d2114ca5af1d4e8b9a2b46c386945, type: 2}
   descripcion: Ataca al enemigo con un aliento helado capaz de causarle Frio con
     un 70%.
-  vfxPrefab: {fileID: 0}
-  duracionAnimacion: 1.5
+  vfxPrefab: {fileID: 7299968614698664174, guid: fcc6bfbfa920285419d53909cc79f351, type: 3}
+  duracionAnimacion: 0.5
   tiempoParaAplicarDano: 0.5

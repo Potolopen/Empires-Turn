@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Attack3_Cortocircuito
   m_EditorClassIdentifier: 
   nombre: Cortocircuito
-  rango: 8
+  rango: 7
   accuracy: 95
   objective: 0
   criticRate: 30
@@ -26,6 +26,6 @@ MonoBehaviour:
   descripcion: "Causa un cortocircuito en la cabeza del enemigo, causandole en un
     60% ardores en la cabeza, adem\xE1s de altas probabilidades de causar da\xF1os
     graves."
-  vfxPrefab: {fileID: 0}
+  vfxPrefab: {fileID: 250558852422085974, guid: 797918d5b593e4f42b133a3d96a9863e, type: 3}
   duracionAnimacion: 1.5
   tiempoParaAplicarDano: 0.5

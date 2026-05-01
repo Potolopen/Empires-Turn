@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Attack3_GarraInvisible
   m_EditorClassIdentifier: 
   nombre: Garra Invisible
-  rango: 3
+  rango: 5
   accuracy: 95
   objective: 0
   criticRate: 25
@@ -26,6 +26,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 7ff3473374b7adc4ba6c7532285cdda3, type: 2}
   descripcion: Se abalanza ferozmente al enemigo con un ataque imperciptible capaz
     de aumentar al atacante la Velocidad [2T].
-  vfxPrefab: {fileID: 0}
+  vfxPrefab: {fileID: 8772786592120028598, guid: f6cc96b82116c224d9442a5995604ef6, type: 3}
   duracionAnimacion: 1.5
   tiempoParaAplicarDano: 0.5

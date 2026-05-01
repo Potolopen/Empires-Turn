@@ -3,7 +3,59 @@
   "WorkspaceRootPath": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\ui\\resultadosmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\attack\\combatvisualmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attack\\combatvisualmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\attack\\combatmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attack\\combatmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\character\\charactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\charactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\attack\\effectattacks\\buffseffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attack\\effectattacks\\buffseffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\attack\\executeattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attack\\executeattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\attack\\attackeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attack\\attackeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\attack\\effectattacks\\transformeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attack\\effectattacks\\transformeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\attack\\effectattacks\\staminaeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attack\\effectattacks\\staminaeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\attack\\effectattacks\\poisoneffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attack\\effectattacks\\poisoneffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\character\\characterentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\characterentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\ui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|c:\\users\\erica\\unity\\proyectovideojuego\\assets\\scripts\\ui\\resultadosmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\resultadosmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,7 +67,7 @@
       "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|c:\\users\\erica\\unity\\proyectovideojuego\\assets\\scripts\\attack\\effectattacks\\healeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\attack\\effectattacks\\healeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attack\\effectattacks\\healeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -31,56 +83,12 @@
       "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attack\\effectattacks\\slownesseffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\attack\\effectattacks\\poisoneffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attack\\effectattacks\\poisoneffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\attack\\effectattacks\\buffseffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attack\\effectattacks\\buffseffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\attack\\attackeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attack\\attackeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\character\\characterentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\characterentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\attack\\combatvisualmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attack\\combatvisualmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\character\\charactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\charactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\ui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\attack\\combatmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attack\\combatmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\attack\\effectattacks\\transformeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attack\\effectattacks\\transformeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\attack\\effectattacks\\movetotargeteffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attack\\effectattacks\\movetotargeteffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\attack\\effectattacks\\staminaeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attack\\effectattacks\\staminaeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\attack\\effectattacks\\damageeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -93,10 +101,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\attack\\attackdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attack\\attackdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\attack\\executeattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attack\\executeattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\ui\\menuuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -113,10 +117,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\selectormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\selectormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8C629EB3-E7F6-0CA6-7314-C8FBB5AD8252}|Assembly-CSharp.csproj|C:\\Users\\erica\\Unity\\ProyectoVideojuego\\assets\\scripts\\types\\elementaltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -158,7 +158,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -170,19 +170,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 6,
               "Title": "TransformEffect.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\Attack\\EffectAttacks\\TransformEffect.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Attack\\EffectAttacks\\TransformEffect.cs",
               "ToolTip": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\Attack\\EffectAttacks\\TransformEffect.cs",
               "RelativeToolTip": "Assets\\Scripts\\Attack\\EffectAttacks\\TransformEffect.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBEAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T15:36:18.494Z"
+              "WhenOpened": "2026-04-27T15:36:18.494Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "MoveToTargetEffect.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\Attack\\EffectAttacks\\MoveToTargetEffect.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Attack\\EffectAttacks\\MoveToTargetEffect.cs",
@@ -194,19 +195,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "AudioManager.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\AudioManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AudioManager.cs",
               "ToolTip": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\AudioManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\AudioManager.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAoAAAA3AAAA",
+              "ViewState": "AQIAAHYAAAAAAAAAAADwv4MAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T15:36:08.118Z"
+              "WhenOpened": "2026-04-23T15:36:08.118Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 14,
               "Title": "EstadisticasUIManager.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\UI\\EstadisticasUIManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\EstadisticasUIManager.cs",
@@ -214,8 +216,7 @@
               "RelativeToolTip": "Assets\\Scripts\\UI\\EstadisticasUIManager.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAawB4AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T16:09:04.91Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-20T16:09:04.91Z"
             },
             {
               "$type": "Document",
@@ -231,20 +232,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 13,
               "Title": "ResultadosManager.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\UI\\ResultadosManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ResultadosManager.cs",
               "ToolTip": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\UI\\ResultadosManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\ResultadosManager.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAIA1wBwAAAAnAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAASwBwAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-18T19:50:35.365Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 7,
               "Title": "StaminaEffect.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\Attack\\EffectAttacks\\StaminaEffect.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Attack\\EffectAttacks\\StaminaEffect.cs",
@@ -252,23 +253,25 @@
               "RelativeToolTip": "Assets\\Scripts\\Attack\\EffectAttacks\\StaminaEffect.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAAwBcAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T14:03:46.386Z"
+              "WhenOpened": "2026-04-14T14:03:46.386Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
               "Title": "CombatVisualManager.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\Attack\\CombatVisualManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Attack\\CombatVisualManager.cs",
               "ToolTip": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\Attack\\CombatVisualManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Attack\\CombatVisualManager.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwAMAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T19:34:49.192Z"
+              "WhenOpened": "2026-04-09T19:34:49.192Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "FloatingText.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\UI\\FloatingText.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\FloatingText.cs",
@@ -280,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "SelectorManager.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\SelectorManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SelectorManager.cs",
@@ -304,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "MenuUIManager.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\UI\\MenuUIManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\MenuUIManager.cs",
@@ -316,31 +319,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 11,
               "Title": "UIManager.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\UI\\UIManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIManager.cs",
               "ToolTip": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\UI\\UIManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\UIManager.cs",
-              "ViewState": "AQIAACsCAAAAAAAAAAAiwBoCAAAnAAAA",
+              "ViewState": "AQIAAMcAAAAAAAAAAAAuwM0AAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T16:22:53.767Z"
+              "WhenOpened": "2026-04-02T16:22:53.767Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "BuffsEffect.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\Attack\\EffectAttacks\\BuffsEffect.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Attack\\EffectAttacks\\BuffsEffect.cs",
               "ToolTip": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\Attack\\EffectAttacks\\BuffsEffect.cs",
               "RelativeToolTip": "Assets\\Scripts\\Attack\\EffectAttacks\\BuffsEffect.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAuwCQAAAAmAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAADkAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T17:55:38.134Z"
+              "WhenOpened": "2026-03-25T17:55:38.134Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 15,
               "Title": "AuthManager.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\AuthManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AuthManager.cs",
@@ -348,24 +353,24 @@
               "RelativeToolTip": "Assets\\Scripts\\AuthManager.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T19:38:32.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T19:38:32.429Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "PoisonEffect.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\Attack\\EffectAttacks\\PoisonEffect.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Attack\\EffectAttacks\\PoisonEffect.cs",
               "ToolTip": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\Attack\\EffectAttacks\\PoisonEffect.cs",
               "RelativeToolTip": "Assets\\Scripts\\Attack\\EffectAttacks\\PoisonEffect.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBUAAAAAAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T18:44:19.159Z"
+              "WhenOpened": "2026-03-05T18:44:19.159Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 18,
               "Title": "BurnEffect.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\Attack\\EffectAttacks\\BurnEffect.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Attack\\EffectAttacks\\BurnEffect.cs",
@@ -401,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 17,
               "Title": "FreezeEffect.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\Attack\\EffectAttacks\\FreezeEffect.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Attack\\EffectAttacks\\FreezeEffect.cs",
@@ -425,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 19,
               "Title": "SlownessEffect.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\Attack\\EffectAttacks\\SlownessEffect.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Attack\\EffectAttacks\\SlownessEffect.cs",
@@ -437,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 16,
               "Title": "HealEffect.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\Attack\\EffectAttacks\\HealEffect.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Attack\\EffectAttacks\\HealEffect.cs",
@@ -445,12 +450,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Attack\\EffectAttacks\\HealEffect.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T16:00:26.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T16:00:26.622Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "AttackData.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\Attack\\AttackData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Attack\\AttackData.cs",
@@ -474,15 +478,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 12,
               "Title": "CameraController.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\CameraController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraController.cs",
               "ToolTip": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\CameraController.cs",
               "RelativeToolTip": "Assets\\Scripts\\CameraController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAgAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T21:15:19.421Z"
+              "WhenOpened": "2026-02-28T21:15:19.421Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -498,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
@@ -522,7 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "TurnManager.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\TurnManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TurnManager.cs",
@@ -534,31 +539,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "CharacterEntity.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\Character\\CharacterEntity.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\CharacterEntity.cs",
               "ToolTip": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\Character\\CharacterEntity.cs",
               "RelativeToolTip": "Assets\\Scripts\\Character\\CharacterEntity.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAQwAsAAAAcAAAA",
+              "ViewState": "AQIAAMcAAAAAAAAAAAAwwPYAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T19:03:17.908Z"
+              "WhenOpened": "2026-02-24T19:03:17.908Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 2,
               "Title": "CharacterMovement.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\Character\\CharacterMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\CharacterMovement.cs",
               "ToolTip": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\Character\\CharacterMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\Character\\CharacterMovement.cs",
-              "ViewState": "AQIAAKYAAAAAAAAAAAAMwK8AAACDAAAA",
+              "ViewState": "AQIAAJ0AAAAAAAAAAAAuwLEAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T22:52:33.453Z"
+              "WhenOpened": "2026-02-23T22:52:33.453Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "CharacterData.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\Character\\CharacterData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\CharacterData.cs",
@@ -570,19 +577,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 1,
               "Title": "CombatManager.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\Attack\\CombatManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Attack\\CombatManager.cs",
               "ToolTip": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\Attack\\CombatManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Attack\\CombatManager.cs",
-              "ViewState": "AQIAADQBAAAAAAAAAAArwJ0AAAAjAAAA",
+              "ViewState": "AQIAADcBAAAAAAAAAAArwEEBAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T22:51:15.044Z"
+              "WhenOpened": "2026-02-23T22:51:15.044Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 4,
               "Title": "ExecuteAttack.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\Attack\\ExecuteAttack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Attack\\ExecuteAttack.cs",
@@ -590,11 +598,12 @@
               "RelativeToolTip": "Assets\\Scripts\\Attack\\ExecuteAttack.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T19:40:57.8Z"
+              "WhenOpened": "2026-02-23T19:40:57.8Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "AttackEffect.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\Attack\\AttackEffect.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Attack\\AttackEffect.cs",
@@ -602,11 +611,12 @@
               "RelativeToolTip": "Assets\\Scripts\\Attack\\AttackEffect.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T20:54:33.562Z"
+              "WhenOpened": "2026-02-21T20:54:33.562Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "DamageEffect.cs",
               "DocumentMoniker": "C:\\Users\\erica\\Unity\\ProyectoVideojuego\\Assets\\Scripts\\Attack\\EffectAttacks\\DamageEffect.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Attack\\EffectAttacks\\DamageEffect.cs",

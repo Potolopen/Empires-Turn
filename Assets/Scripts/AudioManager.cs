@@ -24,6 +24,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip ataquePocoEficazClip;
     public AudioClip ataqueFallidoClip;
     public AudioClip curaClip;
+    public AudioClip staminaClip;
 
     [Header("Sonidos para cada tipo")]
     public AudioClip aguaClip;
@@ -124,6 +125,11 @@ public class AudioManager : MonoBehaviour
     public void Curacion()
     {
         EncolarSonido(curaClip);
+    }
+
+    public void RecuperarEstamina()
+    {
+        EncolarSonido(staminaClip);
     }
 
     public void sonidoAtaqueSegunTipo(ElementalType type)

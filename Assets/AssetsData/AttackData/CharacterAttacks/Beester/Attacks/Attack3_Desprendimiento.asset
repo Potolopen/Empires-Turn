@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Attack3_Desprendimiento
   m_EditorClassIdentifier: 
   nombre: Desprendimiento
-  rango: 10
-  accuracy: 55
+  rango: 8
+  accuracy: 45
   objective: 0
   criticRate: 15
   costeStamina: 50
@@ -24,6 +24,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 87360410ddd62e441af1e0497f3e072f, type: 2}
   descripcion: "Crea un potente tornado el cual lanza diferentes objetos capaces
     de da\xF1ar al enemigo."
-  vfxPrefab: {fileID: 0}
-  duracionAnimacion: 1.5
+  vfxPrefab: {fileID: 7023271655514513397, guid: af871f04b0439ae4b93c1f35399c1d17, type: 3}
+  duracionAnimacion: 0.5
   tiempoParaAplicarDano: 0.5

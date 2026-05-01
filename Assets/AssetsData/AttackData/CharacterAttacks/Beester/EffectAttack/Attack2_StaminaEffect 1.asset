@@ -16,4 +16,4 @@ MonoBehaviour:
   vfxEffectDuration: 1.5
   stamina: 20
   recuperaStamina: 1
-  aElMismo: 0
+  aElMismo: 1

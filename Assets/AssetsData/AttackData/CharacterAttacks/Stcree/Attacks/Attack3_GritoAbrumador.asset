@@ -24,6 +24,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8f0445ab4a6a4234dbd7848a81b2c749, type: 2}
   - {fileID: 11400000, guid: 5ba8a8cf0d992534ba502fbf6550e735, type: 2}
   descripcion: Pega un grito capaz de dejar congelado al enemigo con un 45%.
-  vfxPrefab: {fileID: 0}
-  duracionAnimacion: 1.5
+  vfxPrefab: {fileID: 7531525471711079366, guid: d02adb418fada5a4cb141ca519270cd4, type: 3}
+  duracionAnimacion: 0.5
   tiempoParaAplicarDano: 0.5

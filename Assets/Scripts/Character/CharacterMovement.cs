@@ -175,28 +175,34 @@ public class CharacterMovement : MonoBehaviour
         }
         if (Input.GetMouseButtonDown(1) && currentlySelected != null && !character.isActing && !currentlySelected.isForcingMovement)
         {
-            // 🚨 LA CLAVE: Solo dejamos que el personaje actualmente seleccionado maneje este bloque.
-            // Así evitamos que los otros 10 personajes del mapa intenten deseleccionarse a la vez.
-            if (currentlySelected != this) return;
+            ClickDerechoAccion();
+        }
+    }
 
-            // 1. Cancelar apuntado siempre es posible
-            if (character.estadoActual == CharacterEntity.UnidadEstado.Apuntando)
-            {
-                UIManager.instance.OnClickCancelar();
-            }
-            // 2. Retroceder movimiento: solo si el personaje no ha atacado.
-            else if (character.characterMoved && !character.characterAttacked)
-            {
-                UIManager.instance.OnClickAtras();
-                UIManager.instance.ShowActionMenu(character, this);
-            }
-            // 3. Deseleccionar general:
-            // Permite deseleccionar si no se ha movido AÚN, o si ya está FINALIZADO (aliado o enemigo)
-            else if (!character.characterMoved || character.estadoActual == CharacterEntity.UnidadEstado.Finalizado)
-            {
-                DeseleccionarPersonaje();
-                UIManager.instance.HideActionMenu();
-            }
+    public void ClickDerechoAccion()
+    {
+        // 🚨 LA CLAVE: Solo dejamos que el personaje actualmente seleccionado maneje este bloque.
+        // Así evitamos que los otros 10 personajes del mapa intenten deseleccionarse a la vez.
+        if (currentlySelected != this) return;
+
+        // 1. Cancelar apuntado siempre es posible
+        if (character.estadoActual == CharacterEntity.UnidadEstado.Apuntando)
+        {
+            character.estadoActual = CharacterEntity.UnidadEstado.EligiendoAccion;
+            UIManager.instance.HideAttackMenu();
+        }
+        // 2. Retroceder movimiento: solo si el personaje no ha atacado.
+        else if (character.characterMoved && !character.characterAttacked)
+        {
+            MoverPosicionAnterior();
+            UIManager.instance.ShowActionMenu(character, this);
+        }
+        // 3. Deseleccionar general:
+        // Permite deseleccionar si no se ha movido AÚN, o si ya está FINALIZADO (aliado o enemigo)
+        else if (!character.characterMoved || character.estadoActual == CharacterEntity.UnidadEstado.Finalizado)
+        {
+            DeseleccionarPersonaje();
+            UIManager.instance.HideActionMenu();
         }
     }
 

@@ -244,6 +244,7 @@ public class CharacterEntity : MonoBehaviour
         stats.staminaActual += stamina;
         stats.staminaActual = Mathf.Min(stats.staminaMaxima, stats.staminaActual);
         Debug.Log(this.data.nombre + " ha recuperado " + stamina + " puntos de estamina.");
+        AudioManager.instance.RecuperarEstamina();
 
         if (CombatVisualManager.instance != null)
         {

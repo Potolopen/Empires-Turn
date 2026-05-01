@@ -342,7 +342,7 @@ public class CombatManager : MonoBehaviour
                 Debug.Log("<color=red>¡El ataque ha fallado!</color>");
 
                 AudioManager.instance.FallarAtaque();
-                CombatVisualManager.instance.MostrarTextoFlotante(atacante.transform.position, "¡¡Ha fallado!!", Color.cyan);
+                CombatVisualManager.instance.MostrarTextoFlotante(enemigo.transform.position, "¡¡Ha fallado!!", Color.cyan);
                 // Si falla, no hay animación que esperar, así que limpiamos inmediatamente.
                 FinalizarLimpiezaDeAtaque(atacante);
             }

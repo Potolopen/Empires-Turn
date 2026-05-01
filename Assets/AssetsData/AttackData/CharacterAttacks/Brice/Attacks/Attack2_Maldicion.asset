@@ -26,6 +26,6 @@ MonoBehaviour:
   descripcion: "Maldice al enemigo produciendole Envenenamiento del 100% y con la
     probabiliad de bajarle amb\xE1s Defensas y el Ataque Fisico, cada uno con un
     50% [2T]."
-  vfxPrefab: {fileID: 0}
-  duracionAnimacion: 1.5
+  vfxPrefab: {fileID: 3149994864773593769, guid: 4eb60dc04e2c4c44ebfc128511540736, type: 3}
+  duracionAnimacion: 0.5
   tiempoParaAplicarDano: 0.5

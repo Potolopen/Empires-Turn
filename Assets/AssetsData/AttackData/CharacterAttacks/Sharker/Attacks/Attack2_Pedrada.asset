@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Attack2_Pedrada
   m_EditorClassIdentifier: 
   nombre: Pedrada
-  rango: 4
+  rango: 5
   accuracy: 90
   objective: 0
   criticRate: 30

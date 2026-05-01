@@ -23,10 +23,6 @@ public class BuffsEffect : AttackEffect
 
     public override void Aplicar(CharacterEntity atacante, CharacterEntity objetivo)
     {
-        // Creamos "interruptores" para saber si sonó algo
-        bool aplicoBufo = false;
-        bool aplicoDebufo = false;
-
         // 3. Recorremos la lista y aplicamos CADA modificación al objetivo
         foreach (var mod in modificaciones)
         {
@@ -40,11 +36,11 @@ public class BuffsEffect : AttackEffect
 
                     if (mod.cantidadModificacion > 0)
                     {
-                        aplicoBufo = true;
+                        AudioManager.instance.SonidoBufo();
                     }
                     else if (mod.cantidadModificacion < 0)
                     {
-                        aplicoDebufo = true;
+                        AudioManager.instance.SonidoDebufo();
                     }
 
 
@@ -56,11 +52,11 @@ public class BuffsEffect : AttackEffect
 
                     if (mod.cantidadModificacion > 0)
                     {
-                        aplicoBufo = true;
+                        AudioManager.instance.SonidoBufo();
                     }
                     else if (mod.cantidadModificacion < 0)
                     {
-                        aplicoDebufo = true;
+                        AudioManager.instance.SonidoDebufo();
                     }
 
 
@@ -68,14 +64,6 @@ public class BuffsEffect : AttackEffect
                 }
 
             }
-        }
-        if (aplicoBufo)
-        {
-            AudioManager.instance.SonidoBufo();
-        }
-        else if (aplicoDebufo)
-        {
-            AudioManager.instance.SonidoDebufo();
         }
     }
 }

@@ -25,6 +25,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d350a1f175d92154585da6b88c59b0bf, type: 2}
   descripcion: "Escupe un liquido similar al agua al enemigo, infligiendole da\xF1o
     y tiene una probabilidad de un 30% de ralentizar."
-  vfxPrefab: {fileID: 0}
-  duracionAnimacion: 1.5
-  tiempoParaAplicarDano: 0.5
+  vfxPrefab: {fileID: 2429581999129204402, guid: e8bbc119e535ea94f9eb209b76048c32, type: 3}
+  duracionAnimacion: 0.5
+  tiempoParaAplicarDano: 0.2

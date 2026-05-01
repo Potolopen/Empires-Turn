@@ -26,6 +26,6 @@ MonoBehaviour:
   descripcion: "Se mete dentro de su caparaz\xF3n aumentandose en un 100% la Defensa
     F\xEDsica [2T] y en con un 50% la Defensa Especial [1T]. Adem\xE1s de recuperar
     120 puntos de Vida."
-  vfxPrefab: {fileID: 0}
-  duracionAnimacion: 1.5
-  tiempoParaAplicarDano: 0.5
+  vfxPrefab: {fileID: 6325687961796640012, guid: 1b57afa7e75281340a550c486b98c614, type: 3}
+  duracionAnimacion: 0.3
+  tiempoParaAplicarDano: 0.3
