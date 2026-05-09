@@ -4,9 +4,13 @@ Este es el manual de usuario completo para Empire's Turn, estructurado para ofre
 
 **Instalación y Ejecución:**
 
-Este videojuego no requiere instalación. Puedes jugar la versión más reciente directamente desde tu navegador haciendo clic en el siguiente enlace:
+Se puede jugar de 2 formas a este videojuego, mediante web:
 
-https://potolopen.github.io/Empires-Turn/
+[Empire's Turn Web](https://potolopen.github.io/Empires-Turn/)
+
+O mediante una descarga de un .exe para Windows:
+
+[Empire's Turn Windows](https://potolopen.itch.io/empires-turn)
 
 **¿Qué es Empire's Turn?**
 
