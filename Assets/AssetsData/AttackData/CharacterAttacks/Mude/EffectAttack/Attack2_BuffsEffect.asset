@@ -18,5 +18,5 @@ MonoBehaviour:
   - statAfectada: 4
     cantidadModificacion: -1
     duracionTurnos: 2
-    esParaEnemigo: 0
+    esParaEnemigo: 1
     probabilidad: 100

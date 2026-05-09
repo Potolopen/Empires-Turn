@@ -356,8 +356,14 @@ public class CharacterEntity : MonoBehaviour
         // Copiamos el sprite chibi, que se encuentra en el sprite renderer, pero como ya tenemos una variable que guarda el sprite, la aprovechamos.
         originalSprite = cambioColorAlActuar.sprite;
 
-        // 3. Copiamos los datos del rival
-        data = objetivo.data; // Al cambiar el data, automáticamente la UI leerá sus ataques, cara y badges
+        // Creamos un clon exacto del data del enemigo
+        data = Instantiate(objetivo.data);
+
+        // Le pasamos nuestra Id de base de datos para no perder su identificador
+        data.idDataBase = originalData.idDataBase;
+
+        // Le pasamos tambien el nombre
+        data.nombre = originalData.nombre;
 
         // Copiamos el sprite del rival
         cambioColorAlActuar.sprite = objetivo.cambioColorAlActuar.sprite;
@@ -398,11 +404,17 @@ public class CharacterEntity : MonoBehaviour
     {
         if (!isTransformed) return;
 
+        // Guardamos una referencia al clon de data que creamos para poder destruirlo
+        CharacterData dataClonada = data;
+
         // Restaurar Data
         data = originalData;
 
         // Copiamos el sprite del rival
         cambioColorAlActuar.sprite = originalSprite;
+
+        // ¡IMPORTANTE! Destruimos el clon temporal de la memoria RAM
+        Destroy(dataClonada);
 
         // Restaurar Stats Base
         statsBase.ataqueFisico = originalStatsBase.ataqueFisico;

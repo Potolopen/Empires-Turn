@@ -60,6 +60,7 @@ public class MenuUIManager : MonoBehaviour
     public void MostrarMenuPrincipal()
     {
         panelLogin.SetActive(false);
+        panelRegister.SetActive(false);
         panelEstadisticas.SetActive(false);
         textoUsuario.text = AuthManager.instance.nombreUsuario;
         botonCerrarSesion.SetActive(true);
